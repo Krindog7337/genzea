@@ -1,133 +1,221 @@
 <!DOCTYPE html>
 <html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="stylesheet" href="/css/tailwind.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="assets/logo-ceria_main-logo.svg "
+      type="image/x-icon"
+    />
+    <title>Cegah Anemia Remaja - CERIA</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-  <link rel="stylesheet" href="/css/tailwind.css">
-  <link rel="stylesheet" href="/css/style.css">
-  <link rel="shortcut icon" href="assets/logo-ceria_main-logo.svg " type="image/x-icon">
-  <title>Cegah Anemia Remaja - CERIA</title>
-</head>
-
-<body class="box-border p-0 m-0 bg-ceria-light text-ceria-text font-sans text-step0">
-  <header>
-    <div class="container mx-auto px-4">
-      <div class="navigation-wrapper flex justify-between py-2">
-        <div class="icon">
-          <img src="/assets/logo-ceria_main-logo.svg" alt="">
+  <body
+    class="m-0 box-border bg-ceria-light p-0 font-sans text-step0 text-ceria-text"
+  >
+    <header>
+      <div class="container mx-auto px-4">
+        <div class="navigation-wrapper flex justify-between py-2">
+          <div class="icon">
+            <img src="/assets/logo-ceria_main-logo.svg" alt="" />
+          </div>
+          <!-- mobile nav button -->
+          <button class="mobile-menu-button block rounded-lg p-1 md:hidden">
+            <img src="/assets/menu_FILL0_wght500_GRAD0_opsz40.svg" alt="" />
+          </button>
+          <!-- desktop navigation -->
+          <nav class="hidden md:flex">
+            <ul class="flex-wrap items-center md:flex">
+              <li>
+                <a
+                  class="mx-2 cursor-pointer rounded-lg px-4 py-2 font-semibold transition hover:text-ceria-accent"
+                  href="/index.html"
+                  >Beranda</a
+                >
+              </li>
+              <li>
+                <a
+                  class="mx-2 cursor-pointer rounded-lg px-4 py-2 font-semibold transition hover:text-ceria-accent"
+                  href="/informasi.html"
+                  >Informasi</a
+                >
+              </li>
+              <li>
+                <a
+                  class="mx-2 cursor-pointer rounded-lg px-4 py-2 font-semibold transition hover:text-ceria-accent"
+                  href="/video.html"
+                  >Video</a
+                >
+              </li>
+              <li>
+                <a
+                  class="mx-2 cursor-pointer rounded-lg px-4 py-2 font-semibold transition hover:text-ceria-accent"
+                  href="/tentang.html"
+                  >Tentang</a
+                >
+              </li>
+              <li>
+                <a
+                  class="mx-2 cursor-pointer rounded-lg px-4 py-2 font-semibold transition hover:text-ceria-accent"
+                  href="/kuis.html"
+                  >Kuis</a
+                >
+              </li>
+              <li>
+                <a
+                  class="mx-2 cursor-pointer rounded-lg bg-ceria-accent px-4 py-2 font-semibold text-ceria-light transition hover:text-ceria-accent"
+                  href="/hubungi.html"
+                  >Tanya Ceria</a
+                >
+              </li>
+            </ul>
+          </nav>
         </div>
-        <!-- mobile nav button -->
-        <button class="mobile-menu-button block md:hidden p-1 rounded-lg">
-          <img src="/assets/menu_FILL0_wght500_GRAD0_opsz40.svg" alt="">
-        </button>
-        <!-- desktop navigation -->
-        <nav class="hidden md:flex">
-          <ul class=" md:flex flex-wrap items-center">
-            <li><a class="px-4 py-2 mx-2 rounded-lg font-semibold cursor-pointer transition hover:text-ceria-accent"
-                href="/index.html">Beranda</a></li>
-            <li><a class="px-4 py-2 mx-2 rounded-lg font-semibold cursor-pointer transition hover:text-ceria-accent"
-                href="/informasi.html" Informasi">Informasi</a></li>
-            <li><a class="px-4 py-2 mx-2 rounded-lg font-semibold cursor-pointer transition hover:text-ceria-accent"
-                href="/video.html">Video</a></li>
-            <li><a class="px-4 py-2 mx-2 rounded-lg font-semibold cursor-pointer transition hover:text-ceria-accent"
-                href="/tentang.html">Tentang</a></li>
-            <li><a class="px-4 py-2 mx-2 rounded-lg font-semibold cursor-pointer transition hover:text-ceria-accent"
-                href="/kuis.html">Kuis</a></li>
-            <li><a
-                class="px-4 py-2 mx-2 rounded-lg font-semibold cursor-pointer transition text-ceria-light hover:text-ceria-accent bg-ceria-accent"
-                href="/hubungi.html">Tanya Ceria</a></li>
+        <!-- mobile navigation -->
+        <div class="mobile-navigation container mx-auto hidden px-4">
+          <ul class="">
+            <li class="my-3">
+              <a
+                class="cursor-pointer rounded-lg py-2 text-lg font-semibold transition hover:text-ceria-accent"
+                href="/index.html"
+                >Beranda</a
+              >
+            </li>
+            <li class="my-3">
+              <a
+                class="cursor-pointer rounded-lg py-2 text-lg font-semibold transition hover:text-ceria-accent"
+                href="/informasi.html"
+                >Informasi</a
+              >
+            </li>
+            <li class="my-3">
+              <a
+                class="cursor-pointer rounded-lg py-2 text-lg font-semibold transition hover:text-ceria-accent"
+                href="/video.html"
+                >Video</a
+              >
+            </li>
+            <li class="my-3">
+              <a
+                class="cursor-pointer rounded-lg py-2 text-lg font-semibold transition hover:text-ceria-accent"
+                href="/tentang.html"
+                >Tentang</a
+              >
+            </li>
+            <li class="my-3">
+              <a
+                class="cursor-pointer rounded-lg py-2 text-lg font-semibold transition hover:text-ceria-accent"
+                href="/kuis.html"
+                >Kuis</a
+              >
+            </li>
+            <li class="my-3">
+              <a
+                class="cursor-pointer rounded-lg py-2 text-lg font-semibold transition hover:text-ceria-accent"
+                href="/hubungi.html"
+                >Tanya Ceria</a
+              >
+            </li>
           </ul>
-        </nav>
-      </div>
-      <!-- mobile navigation -->
-      <div class="mobile-navigation container mx-auto px-4 hidden">
-        <ul class="">
-          <li class="my-3"><a
-              class="py-2 rounded-lg text-lg font-semibold cursor-pointer transition hover:text-ceria-accent"
-              href="/index.html">Beranda</a></li>
-          <li class="my-3"><a
-              class="py-2 rounded-lg text-lg font-semibold cursor-pointer transition hover:text-ceria-accent"
-              href="/informasi.html" Informasi">Informasi</a></li>
-          <li class="my-3"><a
-              class="py-2 rounded-lg text-lg font-semibold cursor-pointer transition hover:text-ceria-accent"
-              href="/video.html">Video</a></li>
-          <li class="my-3"><a
-              class="py-2 rounded-lg text-lg font-semibold cursor-pointer transition hover:text-ceria-accent"
-              href="/tentang.html">Tentang</a></li>
-          <li class="my-3"><a
-              class="py-2 rounded-lg text-lg font-semibold cursor-pointer transition hover:text-ceria-accent"
-              href="/kuis.html">Kuis</a></li>
-          <li class="my-3"><a
-              class="py-2 rounded-lg font-semibold text-lg cursor-pointer transition hover:text-ceria-accent"
-              href="/hubungi.html">Tanya Ceria</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="hero flex flex-col justify-evenly items-center ">
-      <div class="hero-content container mx-auto px-4 flex flex-col text-center justify-evenly text-ceria-light">
-        <h1 class="text-7xl my-2 font-semibold">CERIA</h1>
-        <h2 class="text-4xl my-2 font-semibold">Cegah Remaja Anemia</h2>
-      </div>
-      <div class="button-wrapper text-center my-4">
-        <a href="/hubungi.html">
-          <button
-            class="px-4 py-2 m-4 rounded-lg cursor-pointer border-2 border-ceria-accent bg-ceria-accent text-ceria-light">Tanya
-            Ceria</button>
-        </a>
-        <a href="/informasi.html">
-          <button class="px-4 py-2 mx-2 rounded-lg cursor-pointer border-2 border-ceria-cream text-ceria-cream">Ketahui
-            Infomasi</button>
-        </a>
-      </div>
-    </div>
-    </div>
-  </header>
-  <main>
-    <div class="container mx-auto px-4">
-      <div class="divider flex justify-center my-4">
-        <img src="/assets/line-divider.svg" alt="">
-      </div>
-      <section class="ceria-definisi text-center">
-        <h1 class="text-4xl font-semibold">Ceria</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, deleniti! Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Magni nostrum deserunt necessitatibus. Tenetur, cum quasi. Iure error, sit illo
-          laboriosam voluptas aspernatur, incidunt aliquam accusamus a cum molestiae? Mollitia, asperiores.</p>
-        </section">
-        <div class="divider flex justify-center my-4">
-          <img src="/assets/line-divider.svg" alt="">
         </div>
-        <section id="anemiaInfo" class="grid gap-4 md:grid-cols-2 my-8 text-left">
+      </div>
+      <div class="hero flex flex-col items-center justify-evenly">
+        <div
+          class="hero-content container mx-auto flex flex-col justify-evenly px-4 text-center text-ceria-light"
+        >
+          <h1 class="my-2 text-7xl font-semibold">CERIA</h1>
+          <h2 class="my-2 text-4xl font-semibold">Cegah Remaja Anemia</h2>
+        </div>
+        <div class="button-wrapper my-4 text-center">
+          <a href="/hubungi.html">
+            <button
+              class="m-4 cursor-pointer rounded-lg border-2 border-ceria-accent bg-ceria-accent px-4 py-2 text-ceria-light"
+            >
+              Tanya Ceria
+            </button>
+          </a>
+          <a href="/informasi.html">
+            <button
+              class="mx-2 cursor-pointer rounded-lg border-2 border-ceria-cream px-4 py-2 text-ceria-cream"
+            >
+              Ketahui Infomasi
+            </button>
+          </a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container mx-auto px-4">
+        <div class="divider my-4 flex justify-center">
+          <img src="/assets/line-divider.svg" alt="" />
+        </div>
+        <section class="ceria-definisi text-center">
+          <h1 class="text-4xl font-semibold">Ceria</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores,
+            deleniti! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Magni nostrum deserunt necessitatibus. Tenetur, cum quasi. Iure
+            error, sit illo laboriosam voluptas aspernatur, incidunt aliquam
+            accusamus a cum molestiae? Mollitia, asperiores.
+          </p>
+        </section>
+        <div class="divider my-4 flex justify-center">
+          <img src="/assets/line-divider.svg" alt="" />
+        </div>
+        <section
+          id="anemiaInfo"
+          class="my-8 grid gap-4 text-left md:grid-cols-2"
+        >
           <div class="anemia-content flex flex-col justify-center">
             <h1 class="text-4xl font-semibold">Anemia</h1>
-            <p class="my-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae consectetur cum sed quis
-              repellendus hic
-              eligendi quidem quasi voluptas animi quas recusandae nam maxime illo mollitia consequatur tenetur
-              veritatis,
-              numquam neque similique iusto. Atque.</p>
-            <a class="text-ceria-accent underline" href="/informasi.html">Pelajari lebih lanjut</a>
+            <p class="my-4">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae
+              consectetur cum sed quis repellendus hic eligendi quidem quasi
+              voluptas animi quas recusandae nam maxime illo mollitia
+              consequatur tenetur veritatis, numquam neque similique iusto.
+              Atque.
+            </p>
+            <a class="text-ceria-accent underline" href="/informasi.html"
+              >Pelajari lebih lanjut</a
+            >
           </div>
           <div class="anemia-picture self-center">
-            <img class="aspect-video object-cover rounded-2xl" src="/assets/f37-01-day.png" alt="">
+            <img
+              class="aspect-video rounded-2xl object-cover"
+              src="/assets/f37-01-day.png"
+              alt=""
+            />
           </div>
         </section>
         <section id="anemiaVideo" class="my-8 text-left">
-          <div class="video-anemia__flex md:flex md:flex-row-reverse gap-8 my-4">
+          <div
+            class="video-anemia__flex my-4 gap-8 md:flex md:flex-row-reverse"
+          >
             <div class="wrapper flex flex-1 flex-col justify-center">
               <h1 class="text-4xl font-semibold">Yuk Simak Video Anemia</h1>
-              <p>Kami telah memilih video anemia Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit,
-                esse.</p>
+              <p>
+                Kami telah memilih video anemia Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Reprehenderit, esse.
+              </p>
               <div class="wrapper">
                 <a href="/video.html">
                   <button
-                    class="flex w-full justify-center md:w-max md:px-4 py-2 my-6 rounded-lg cursor-pointer border-2 border-ceria-accent bg-ceria-accent text-ceria-light">
+                    class="my-6 flex w-full cursor-pointer justify-center rounded-lg border-2 border-ceria-accent bg-ceria-accent py-2 text-ceria-light md:w-max md:px-4"
+                  >
                     Lihat Video Lain
                   </button>
                 </a>
@@ -135,30 +223,44 @@
             </div>
             <div class="wrapper flex flex-1 flex-col gap-4">
               <div class="video">
-                <iframe class="w-full h-full aspect-video rounded-2xl"
-                  src="https://www.youtube-nocookie.com/embed/PpmHrshrO3o" title="YouTube video player" frameborder="0"
+                <iframe
+                  class="aspect-video h-full w-full rounded-2xl"
+                  src="https://www.youtube-nocookie.com/embed/PpmHrshrO3o"
+                  title="YouTube video player"
+                  frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowfullscreen></iframe>
+                  allowfullscreen
+                ></iframe>
               </div>
               <div class="video">
-                <iframe class="w-full h-full aspect-video rounded-2xl"
-                  src="https://www.youtube-nocookie.com/embed/5cJ6CMez2IY" title="YouTube video player" frameborder="0"
+                <iframe
+                  class="aspect-video h-full w-full rounded-2xl"
+                  src="https://www.youtube-nocookie.com/embed/5cJ6CMez2IY"
+                  title="YouTube video player"
+                  frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowfullscreen></iframe>
+                  allowfullscreen
+                ></iframe>
               </div>
             </div>
           </div>
         </section>
-        <section id="anemiaKuis" class="flex flex-col my-8 gap-2 text-left">
+        <section id="anemiaKuis" class="my-8 flex flex-col gap-2 text-left">
           <div class="anemia__kuis-content flex flex-col justify-center">
             <h1 class="text-4xl font-semibold">Seberapa Jago Sih Kamu?</h1>
             <p>Ayo coba jawab kuis kami</p>
           </div>
-          <div class="anemia__kuis-card flex flex-col md:flex-row text-left gap-2">
-            <div class="kuis-card__wrapper flex-1 bg-ceria-cream rounded-lg">
+          <div
+            class="anemia__kuis-card flex flex-col gap-2 text-left md:flex-row"
+          >
+            <div class="kuis-card__wrapper flex-1 rounded-lg bg-ceria-cream">
               <a class="flex flex-col" href="">
                 <div class="kuis-img">
-                  <img class="w-full h-32 object-cover rounded-lg" src="/assets/f37-01-day.png" alt="">
+                  <img
+                    class="h-32 w-full rounded-lg object-cover"
+                    src="/assets/f37-01-day.png"
+                    alt=""
+                  />
                 </div>
                 <div class="kuis-content m-2">
                   <h2 class="text-2xl font-semibold">Kuis Title</h2>
@@ -166,10 +268,14 @@
                 </div>
               </a>
             </div>
-            <div class="kuis-card__wrapper flex-1 bg-ceria-cream rounded-lg">
+            <div class="kuis-card__wrapper flex-1 rounded-lg bg-ceria-cream">
               <a class="flex flex-col" href="">
                 <div class="kuis-img">
-                  <img class="w-full h-32 object-cover rounded-lg" src="/assets/f37-01-day.png" alt="">
+                  <img
+                    class="h-32 w-full rounded-lg object-cover"
+                    src="/assets/f37-01-day.png"
+                    alt=""
+                  />
                 </div>
                 <div class="kuis-content m-2">
                   <h2 class="text-2xl font-semibold">Kuis Title</h2>
@@ -178,15 +284,21 @@
               </a>
             </div>
 
-            <div class="kuis-card__wrapper flex flex-col justify-center bg-ceria-cream rounded-lg">
-              <a class="flex md:flex-col justify-between m-4" href="">
+            <div
+              class="kuis-card__wrapper flex flex-col justify-center rounded-lg bg-ceria-cream"
+            >
+              <a class="m-4 flex justify-between md:flex-col" href="">
                 <div class="kuis-content flex flex-col justify-center">
                   <h2 class="text-2xl font-semibold">Kuis Lainnya</h2>
                   <!-- <p>Lihat Kuis Lainnya</p> -->
                 </div>
-                <div class="kuis-other flex justify-center my-2">
+                <div class="kuis-other my-2 flex justify-center">
                   <button class="rounded-full p-1">
-                    <img class="w-8 h-8" src="/assets/chevron_right_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+                    <img
+                      class="h-8 w-8"
+                      src="/assets/chevron_right_FILL0_wght400_GRAD0_opsz48.svg"
+                      alt=""
+                    />
                   </button>
                 </div>
               </a>
@@ -194,47 +306,94 @@
           </div>
         </section>
         <section id="ceriaTanya" class="my-8">
-          <h1 class="text-4xl font-semibold text-center">Yuk Tanya Ceria Sekarang!</h1>
+          <h1 class="text-center text-4xl font-semibold">
+            Yuk Tanya Ceria Sekarang!
+          </h1>
           <div class="icon flex justify-center">
-            <img class="h-8 md:h-16 mx-4 my-8" src="assets/mail_FILL0_wght700_GRAD0_opsz48.svg" alt="">
-            <img class="h-8 md:h-16 mx-4 my-8" src="assets/call_FILL0_wght700_GRAD0_opsz48.svg" alt="">
-            <img class="h-8 md:h-16 mx-4 my-8" src="assets/chat_FILL0_wght700_GRAD0_opsz48.svg" alt="">
-            <img class="h-8 md:h-16 mx-4 my-8" src="assets/com.github.eneshecan.WhatsAppForLinux-symbolic.svg" alt="">
+            <img
+              class="mx-4 my-8 h-8 md:h-16"
+              src="assets/mail_FILL0_wght700_GRAD0_opsz48.svg"
+              alt=""
+            />
+            <img
+              class="mx-4 my-8 h-8 md:h-16"
+              src="assets/call_FILL0_wght700_GRAD0_opsz48.svg"
+              alt=""
+            />
+            <img
+              class="mx-4 my-8 h-8 md:h-16"
+              src="assets/chat_FILL0_wght700_GRAD0_opsz48.svg"
+              alt=""
+            />
+            <img
+              class="mx-4 my-8 h-8 md:h-16"
+              src="assets/com.github.eneshecan.WhatsAppForLinux-symbolic.svg"
+              alt=""
+            />
           </div>
           <div class="wrapper flex justify-center">
             <button
-              class="px-4 py-2 mx-2 rounded-lg cursor-pointer border-2 text-center border-ceria-accent bg-ceria-accent text-ceria-light">
+              class="mx-2 cursor-pointer rounded-lg border-2 border-ceria-accent bg-ceria-accent px-4 py-2 text-center text-ceria-light"
+            >
               Tanya Ceria!
             </button>
           </div>
-    </div>
-    </section>
-    </div>
-  </main>
-  <footer class="bg-ceria-cream">
-    <div class="container mx-auto px-4 py-8 flex flex-col gap-2 md:flex-row">
-      <div class="wrapper flex-1">
-        <img src="/assets/logo-ceria_text-logo.svg" alt="">
-        <p class="my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, ipsa?</p>
+        </section>
       </div>
-      <div class="wrapper flex-1">
-        <ul class="flex flex-col">
-          <li class="my-2"><a class="md:p-2 rounded-lg font-semibold cursor-pointer transition hover:text-ceria-accent"
-              href="/">Beranda</a></li>
-          <li class="my-2"><a class="md:p-2 rounded-lg font-semibold cursor-pointer transition hover:text-ceria-accent"
-              href="/informasi.html">Informasi</a></li>
-          <li class="my-2"><a class="md:p-2 rounded-lg font-semibold cursor-pointer transition hover:text-ceria-accent"
-              href="/video.html">Video</a></li>
-          <li class="my-2"><a class="md:p-2 rounded-lg font-semibold cursor-pointer transition hover:text-ceria-accent"
-              href="tentang.html">Tentang</a></li>
-          <li class="my-2"><a class="md:p-2 rounded-lg font-semibold cursor-pointer transition hover:text-ceria-accent"
-              href="kuis.html">Kuis</a></li>
-        </ul>
+    </main>
+    <footer class="bg-ceria-cream">
+      <div class="container mx-auto flex flex-col gap-2 px-4 py-8 md:flex-row">
+        <div class="wrapper flex-1">
+          <img src="/assets/logo-ceria_text-logo.svg" alt="" />
+          <p class="my-4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
+            ipsa?
+          </p>
+        </div>
+        <div class="wrapper flex-1">
+          <ul class="flex flex-col">
+            <li class="my-2">
+              <a
+                class="cursor-pointer rounded-lg font-semibold transition hover:text-ceria-accent md:p-2"
+                href="/"
+                >Beranda</a
+              >
+            </li>
+            <li class="my-2">
+              <a
+                class="cursor-pointer rounded-lg font-semibold transition hover:text-ceria-accent md:p-2"
+                href="/informasi.html"
+                >Informasi</a
+              >
+            </li>
+            <li class="my-2">
+              <a
+                class="cursor-pointer rounded-lg font-semibold transition hover:text-ceria-accent md:p-2"
+                href="/video.html"
+                >Video</a
+              >
+            </li>
+            <li class="my-2">
+              <a
+                class="cursor-pointer rounded-lg font-semibold transition hover:text-ceria-accent md:p-2"
+                href="tentang.html"
+                >Tentang</a
+              >
+            </li>
+            <li class="my-2">
+              <a
+                class="cursor-pointer rounded-lg font-semibold transition hover:text-ceria-accent md:p-2"
+                href="kuis.html"
+                >Kuis</a
+              >
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-    <p class="container mx-auto p-4 text-center">&copy; 2023 Ceria. All rights reserved.</p>
-  </footer>
-  <script src="/js/navigation.js"></script>
-</body>
-
+      <p class="container mx-auto p-4 text-center">
+        &copy; 2023 Ceria. All rights reserved.
+      </p>
+    </footer>
+    <script src="/js/navigation.js"></script>
+  </body>
 </html>
