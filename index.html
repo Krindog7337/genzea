@@ -11,7 +11,7 @@
     rel="stylesheet">
   <link rel="stylesheet" href="/css/tailwind.css">
   <link rel="stylesheet" href="/css/style.css">
-  <link rel="shortcut icon" href="assets/logo-ceria.png" type="image/x-icon">
+  <link rel="shortcut icon" href="assets/logo-ceria_main-logo.svg " type="image/x-icon">
   <title>Cegah Anemia Remaja - CERIA</title>
 </head>
 
@@ -24,32 +24,27 @@
         </div>
         <nav class="flex">
           <ul class="flex flex-wrap items-center">
+            <li><a class="px-4 py-2 mx-2 rounded-lg font-semibold cursor-pointer transition hover:text-ceria-accent"
+                href="/index.html">Beranda</a></li>
+            <li><a class="px-4 py-2 mx-2 rounded-lg font-semibold cursor-pointer transition hover:text-ceria-accent"
+                href="/informasi.html" Informasi">Informasi</a></li>
+            <li><a class="px-4 py-2 mx-2 rounded-lg font-semibold cursor-pointer transition hover:text-ceria-accent"
+                href="/informasi.html">Video</a></li>
+            <li><a class="px-4 py-2 mx-2 rounded-lg font-semibold cursor-pointer transition hover:text-ceria-accent"
+                href="/tentang.html">Tentang</a></li>
+            <li><a class="px-4 py-2 mx-2 rounded-lg font-semibold cursor-pointer transition hover:text-ceria-accent"
+                href="/kuis.html">Kuis</a></li>
             <li><a
-                class="px-4 py-2 mx-2 rounded-lg font-semibold cursor-pointer transition hover:text-ceria-accent href="
-                Beranda">Beranda</a></li>
-            <li><a
-                class="px-4 py-2 mx-2 rounded-lg font-semibold cursor-pointer transition hover:text-ceria-accent href="
-                Informasi">Informasi</a></li>
-            <li><a
-                class="px-4 py-2 mx-2 rounded-lg font-semibold cursor-pointer transition hover:text-ceria-accent href="
-                Informasi">Video</a></li>
-            <li><a
-                class="px-4 py-2 mx-2 rounded-lg font-semibold cursor-pointer transition hover:text-ceria-accent href="
-                Tentang">Tentang</a></li>
-            <li><a
-                class="px-4 py-2 mx-2 rounded-lg font-semibold cursor-pointer transition hover:text-ceria-accent href="
-                Kuis">Kuis</a></li>
-            <li><a
-                class="px-4 py-2 mx-2 rounded-lg font-semibold cursor-pointer transition text-ceria-light hover:text-ceria-accent bg-ceria-accent href="
-                Sosial">Tanya Ceria</a></li>
+                class="px-4 py-2 mx-2 rounded-lg font-semibold cursor-pointer transition text-ceria-light hover:text-ceria-accent bg-ceria-accent"
+                href="/sosial.html">Tanya Ceria</a></li>
           </ul>
         </nav>
       </div>
     </div>
     <div class="hero flex flex-col justify-evenly items-center ">
-      <div class="hero-content mx-auto flex flex-col text-center justify-evenly text-ceria-light">
-        <h1 class="text-7xl my-2">CERIA</h1>
-        <h2 class="text-4xl my-2">Cegah Remaja Anemia</h2>
+      <div class="hero-content container mx-auto px-4 flex flex-col text-center justify-evenly text-ceria-light">
+        <h1 class="text-7xl my-2 font-semibold">CERIA</h1>
+        <h2 class="text-4xl my-2 font-semibold">Cegah Remaja Anemia</h2>
       </div>
       <div class="button-wrapper my-4">
         <button
@@ -67,7 +62,7 @@
         <img src="/assets/line-divider.svg" alt="">
       </div>
       <section class="ceria-definisi text-center">
-        <h1 class="text-3xl">Ceria</h1>
+        <h1 class="text-4xl font-semibold">Ceria</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, deleniti! Lorem ipsum dolor sit amet
           consectetur adipisicing elit. Magni nostrum deserunt necessitatibus. Tenetur, cum quasi. Iure error, sit illo
           laboriosam voluptas aspernatur, incidunt aliquam accusamus a cum molestiae? Mollitia, asperiores.</p>
@@ -75,9 +70,9 @@
       <div class="divider flex justify-center my-4">
         <img src="/assets/line-divider.svg" alt="">
       </div>
-      <section id="anemiaInfo" class="grid grid-cols-2 gap-4">
+      <section id="anemiaInfo" class="grid gap-4 md:grid-cols-2">
         <div class="anemia-content flex flex-col justify-center">
-          <h1 class="text-4xl">Anemia</h1>
+          <h1 class="text-4xl font-semibold">Anemia</h1>
           <p class="my-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae consectetur cum sed quis
             repellendus hic
             eligendi quidem quasi voluptas animi quas recusandae nam maxime illo mollitia consequatur tenetur veritatis,
@@ -89,31 +84,75 @@
         </div>
       </section>
       <section id="anemiaVideo" class="my-8">
-        <h1 class="text-4xl text-center">Yuk Simak Video Anemia</h1>
-        <div class="video-anemia__grid grid grid-cols-2 gap-2 my-4">
+        <h1 class="text-4xl font-semibold md:text-center">Yuk Simak Video Anemia</h1>
+        <div class="video-anemia__grid grid md:grid-cols-2 gap-2 my-4">
           <div class="video">
-            <img class="aspect-video object-cover" src="/assets/f37-01-day.png" alt="">
+            <iframe class="w-full h-full aspect-video rounded-2xl" src="https://www.youtube-nocookie.com/embed/PpmHrshrO3o"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen></iframe>
           </div>
           <div class="video">
-            <img class="aspect-video object-cover" src="/assets/f37-01-night.png" alt="">
+            <iframe class="w-full h-full aspect-video rounded-2xl" src="https://www.youtube-nocookie.com/embed/5cJ6CMez2IY"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen></iframe>
+          </div>
+        </div>
+      </section>
+      <section id="anemiaKuis" class="grid gap-2 md:grid-cols-2">
+        <div class="anemia__kuis-content flex flex-col justify-center">
+          <h1 class="text-4xl font-semibold">Seberapa Jago Sih Kamu?</h1>
+          <p>Ayo coba jawab kuis kami</p>
+        </div>
+        <div class="anemia__kuis-card flex flex-col gap-2">
+          <div class="kuis-card__wrapper p-2 bg-ceria-cream rounded-lg">
+            <a class="flex" href="">
+              <div class="kuis-img">
+                <img class="aspect-square object-cover w-20" src="/assets/f37-01-day.png" alt="">
+              </div>
+              <h2 class="text-2xl font-semibold">Kuis Title</h2>
+              <p>Kuis Subtitle Lorem ipsum dolor sit amet.</p>
+            </a>
+          </div>
+          <div class="kuis-card__wrapper p-2 bg-ceria-cream rounded-lg">
+            <a href="">
+              <h2 class="text-2xl font-semibold">Kuis Title</h2>
+              <p>Kuis Subtitle Lorem ipsum dolor sit amet.</p>
+            </a>
+          </div>
+          <div class="kuis-card__wrapper p-2 bg-ceria-cream rounded-lg">
+            <a href="">
+              <h2 class="text-2xl font-semibold">Kuis Lainnya</h2>
+              <p>Lihat Kuis Lainnya</p>
+            </a>
           </div>
         </div>
       </section>
       <section id="ceriaTanya">
-        <h1 class="text-4xl text-center">Yuk Tanya Ceria Sekarang!</h1>
+        <h1 class="text-4xl font-semibold text-center">Yuk Tanya Ceria Sekarang!</h1>
 
       </section>
     </div>
   </main>
   <footer class="bg-ceria-cream">
-    <div class="container mx-auto px-4 flex flex-1 gap-2">
-      <div class="wrapper">
+    <div class="container mx-auto px-4 py-8 flex flex-col gap-2 md:flex-row">
+      <div class="wrapper flex-1">
         <img src="/assets/logo-ceria_text-logo.svg" alt="">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, ipsa?</p>
+        <p class="my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, ipsa?</p>
       </div>
-      <div class="wrapper">
+      <div class="wrapper flex-1">
         <ul class="flex flex-col">
-          <li><a class="p-2 m-4 rounded-lg font-semibold cursor-pointer transition hover:text-ceria-accent" href="">Beranda</a></li>
+          <li class="my-2"><a class="md:p-2 rounded-lg font-semibold cursor-pointer transition hover:text-ceria-accent"
+              href="">Beranda</a></li>
+          <li class="my-2"><a class="md:p-2 rounded-lg font-semibold cursor-pointer transition hover:text-ceria-accent"
+              href="">Beranda</a></li>
+          <li class="my-2"><a class="md:p-2 rounded-lg font-semibold cursor-pointer transition hover:text-ceria-accent"
+              href="">Beranda</a></li>
+          <li class="my-2"><a class="md:p-2 rounded-lg font-semibold cursor-pointer transition hover:text-ceria-accent"
+              href="">Beranda</a></li>
+          <li class="my-2"><a class="md:p-2 rounded-lg font-semibold cursor-pointer transition hover:text-ceria-accent"
+              href="">Beranda</a></li>
         </ul>
       </div>
     </div>
