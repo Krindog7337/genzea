@@ -84,44 +84,64 @@
         </div>
       </section>
       <section id="anemiaVideo" class="my-8">
-        <h1 class="text-4xl font-semibold md:text-center">Yuk Simak Video Anemia</h1>
-        <div class="video-anemia__grid grid md:grid-cols-2 gap-2 my-4">
-          <div class="video">
-            <iframe class="w-full h-full aspect-video rounded-2xl" src="https://www.youtube-nocookie.com/embed/PpmHrshrO3o"
-              title="YouTube video player" frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen></iframe>
+        <div class="video-anemia__flex md:flex md:flex-row-reverse gap-8 my-4">
+          <div class="wrapper flex flex-1 flex-col justify-center">
+            <h1 class="text-4xl font-semibold">Yuk Simak Video Anemia</h1>
+            <p>Kami telah memilih video anemia Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit,
+              esse.</p>
+            <div class="wrapper">
+              <button
+                class="flex w-full justify-center md:w-max md:px-4 py-2 my-6 rounded-lg cursor-pointer border-2 border-ceria-accent bg-ceria-accent text-ceria-light">
+                Lihat Video Lain
+              </button>
+            </div>
           </div>
-          <div class="video">
-            <iframe class="w-full h-full aspect-video rounded-2xl" src="https://www.youtube-nocookie.com/embed/5cJ6CMez2IY"
-              title="YouTube video player" frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen></iframe>
+          <div class="wrapper flex flex-1 flex-col gap-4">
+            <div class="video">
+              <iframe class="w-full h-full aspect-video rounded-2xl"
+                src="https://www.youtube-nocookie.com/embed/PpmHrshrO3o" title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            </div>
+            <div class="video">
+              <iframe class="w-full h-full aspect-video rounded-2xl"
+                src="https://www.youtube-nocookie.com/embed/5cJ6CMez2IY" title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            </div>
           </div>
         </div>
       </section>
-      <section id="anemiaKuis" class="grid gap-2 md:grid-cols-2">
+      <section id="anemiaKuis" class="flex flex-col gap-2">
         <div class="anemia__kuis-content flex flex-col justify-center">
           <h1 class="text-4xl font-semibold">Seberapa Jago Sih Kamu?</h1>
           <p>Ayo coba jawab kuis kami</p>
         </div>
-        <div class="anemia__kuis-card flex flex-col gap-2">
-          <div class="kuis-card__wrapper p-2 bg-ceria-cream rounded-lg">
-            <a class="flex" href="">
+        <div class="anemia__kuis-card flex gap-2">
+          <div class="kuis-card__wrapper flex-1 bg-ceria-cream rounded-lg">
+            <a class="flex flex-col" href="">
               <div class="kuis-img">
-                <img class="aspect-square object-cover w-20" src="/assets/f37-01-day.png" alt="">
+                <img class="w-full h-32 object-cover rounded-lg" src="/assets/f37-01-day.png" alt="">
               </div>
-              <h2 class="text-2xl font-semibold">Kuis Title</h2>
-              <p>Kuis Subtitle Lorem ipsum dolor sit amet.</p>
+              <div class="kuis-content">
+                <h2 class="text-2xl font-semibold">Kuis Title</h2>
+                <p>Kuis Subtitle Lorem ipsum dolor sit amet.</p>
+              </div>
             </a>
           </div>
-          <div class="kuis-card__wrapper p-2 bg-ceria-cream rounded-lg">
-            <a href="">
-              <h2 class="text-2xl font-semibold">Kuis Title</h2>
-              <p>Kuis Subtitle Lorem ipsum dolor sit amet.</p>
+          <div class="kuis-card__wrapper flex-1 bg-ceria-cream rounded-lg">
+            <a class="flex flex-col" href="">
+              <div class="kuis-img">
+                <img class="w-full h-32 object-cover rounded-lg" src="/assets/f37-01-day.png" alt="">
+              </div>
+              <div class="kuis-content">
+                <h2 class="text-2xl font-semibold">Kuis Title</h2>
+                <p>Kuis Subtitle Lorem ipsum dolor sit amet.</p>
+              </div>
             </a>
           </div>
-          <div class="kuis-card__wrapper p-2 bg-ceria-cream rounded-lg">
+
+          <div class="kuis-card__wrapper flex-1 bg-ceria-cream rounded-lg">
             <a href="">
               <h2 class="text-2xl font-semibold">Kuis Lainnya</h2>
               <p>Lihat Kuis Lainnya</p>
