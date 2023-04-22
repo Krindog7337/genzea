@@ -44,7 +44,7 @@ html {
   -o-tab-size: 4;
      tab-size: 4;
   /* 3 */
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: Plus Jakarta Sans, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
   /* 4 */
   font-feature-settings: normal;
   /* 5 */
@@ -661,12 +661,8 @@ video {
   margin: 0px;
 }
 
-.m-1 {
-  margin: 0.25rem;
-}
-
-.m-2 {
-  margin: 0.5rem;
+.m-4 {
+  margin: 1rem;
 }
 
 .mx-2 {
@@ -801,8 +797,8 @@ video {
   aspect-ratio: 16 / 9;
 }
 
-.w-12 {
-  width: 3rem;
+.flex-1 {
+  flex: 1 1 0%;
 }
 
 .flex-shrink {
@@ -1141,10 +1137,6 @@ video {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
-.grid-rows-2 {
-  grid-template-rows: repeat(2, minmax(0, 1fr));
-}
-
 .flex-row {
   flex-direction: row;
 }
@@ -1335,10 +1327,6 @@ video {
 
 .gap-4 {
   gap: 1rem;
-}
-
-.gap-1 {
-  gap: 0.25rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -1793,6 +1781,11 @@ video {
   background-color: rgb(230 50 75 / var(--tw-bg-opacity));
 }
 
+.bg-ceria-cream {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 198 165 / var(--tw-bg-opacity));
+}
+
 .bg-ceria-light {
   --tw-bg-opacity: 1;
   background-color: rgb(242 227 198 / var(--tw-bg-opacity));
@@ -1912,6 +1905,10 @@ video {
   padding: 0px;
 }
 
+.p-2 {
+  padding: 0.5rem;
+}
+
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -1978,19 +1975,24 @@ video {
   vertical-align: super;
 }
 
+.font-sans {
+  font-family: Plus Jakarta Sans, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
 .text-3xl {
   font-size: 1.875rem;
-  line-height: 2.25rem;
 }
 
 .text-4xl {
   font-size: 2.25rem;
-  line-height: 2.5rem;
 }
 
 .text-7xl {
-  font-size: 4.5rem;
-  line-height: 1;
+  font-size: 5rem;
+}
+
+.text-step0 {
+  font-size: clamp(1.00rem, calc(0.96rem + 0.22vw), 1.13rem);
 }
 
 .font-bold {
@@ -2078,6 +2080,11 @@ video {
   color: rgb(59 130 246 / var(--tw-text-opacity));
 }
 
+.text-ceria-accent {
+  --tw-text-opacity: 1;
+  color: rgb(230 50 75 / var(--tw-text-opacity));
+}
+
 .text-ceria-cream {
   --tw-text-opacity: 1;
   color: rgb(255 198 165 / var(--tw-text-opacity));
@@ -2091,11 +2098,6 @@ video {
 .text-ceria-text {
   --tw-text-opacity: 1;
   color: rgb(43 43 43 / var(--tw-text-opacity));
-}
-
-.text-ceria-accent {
-  --tw-text-opacity: 1;
-  color: rgb(230 50 75 / var(--tw-text-opacity));
 }
 
 .underline {
