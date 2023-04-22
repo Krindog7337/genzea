@@ -9,6 +9,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&display=swap"
     rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   <link rel="stylesheet" href="/css/tailwind.css">
   <link rel="stylesheet" href="/css/style.css">
   <link rel="shortcut icon" href="assets/logo-ceria_main-logo.svg " type="image/x-icon">
@@ -22,7 +24,11 @@
         <div class="icon">
           <img src="/assets/logo-ceria_main-logo.svg" alt="">
         </div>
-        <nav class="flex">
+        <!-- mobile nav button -->
+        <button class="block md:hidden p-2 rounded-lg">
+          
+        </button>
+        <nav class="hidden md:flex">
           <ul class="flex flex-wrap items-center">
             <li><a class="px-4 py-2 mx-2 rounded-lg font-semibold cursor-pointer transition hover:text-ceria-accent"
                 href="/index.html">Beranda</a></li>
@@ -46,9 +52,9 @@
         <h1 class="text-7xl my-2 font-semibold">CERIA</h1>
         <h2 class="text-4xl my-2 font-semibold">Cegah Remaja Anemia</h2>
       </div>
-      <div class="button-wrapper my-4">
+      <div class="button-wrapper text-center my-4">
         <button
-          class="px-4 py-2 mx-2 rounded-lg cursor-pointer border-2 border-ceria-accent bg-ceria-accent text-ceria-light">Tanya
+          class="px-4 py-2 m-4 rounded-lg cursor-pointer border-2 border-ceria-accent bg-ceria-accent text-ceria-light">Tanya
           Ceria</button>
         <button class="px-4 py-2 mx-2 rounded-lg cursor-pointer border-2 border-ceria-cream text-ceria-cream">Ketahui
           Infomasi</button>
@@ -79,7 +85,7 @@
             numquam neque similique iusto. Atque.</p>
           <a class="text-ceria-accent underline" href="/informasi.html">Pelajari lebih lanjut</a>
         </div>
-        <div class="anemia-picture">
+        <div class="anemia-picture self-center">
           <img class="aspect-video object-cover" src="/assets/f37-01-day.png" alt="">
         </div>
       </section>
@@ -98,16 +104,16 @@
           </div>
           <div class="wrapper flex flex-1 flex-col gap-4">
             <div class="video">
-              <iframe class="w-full h-full aspect-video rounded-2xl"
+              <!-- <iframe class="w-full h-full aspect-video rounded-2xl"
                 src="https://www.youtube-nocookie.com/embed/PpmHrshrO3o" title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen></iframe>
+                allowfullscreen></iframe> -->
             </div>
             <div class="video">
-              <iframe class="w-full h-full aspect-video rounded-2xl"
+              <!-- <iframe class="w-full h-full aspect-video rounded-2xl"
                 src="https://www.youtube-nocookie.com/embed/5cJ6CMez2IY" title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen></iframe>
+                allowfullscreen></iframe> -->
             </div>
           </div>
         </div>
@@ -117,13 +123,13 @@
           <h1 class="text-4xl font-semibold">Seberapa Jago Sih Kamu?</h1>
           <p>Ayo coba jawab kuis kami</p>
         </div>
-        <div class="anemia__kuis-card flex gap-2">
+        <div class="anemia__kuis-card flex flex-col md:flex-row gap-2">
           <div class="kuis-card__wrapper flex-1 bg-ceria-cream rounded-lg">
             <a class="flex flex-col" href="">
               <div class="kuis-img">
                 <img class="w-full h-32 object-cover rounded-lg" src="/assets/f37-01-day.png" alt="">
               </div>
-              <div class="kuis-content">
+              <div class="kuis-content m-2">
                 <h2 class="text-2xl font-semibold">Kuis Title</h2>
                 <p>Kuis Subtitle Lorem ipsum dolor sit amet.</p>
               </div>
@@ -134,25 +140,44 @@
               <div class="kuis-img">
                 <img class="w-full h-32 object-cover rounded-lg" src="/assets/f37-01-day.png" alt="">
               </div>
-              <div class="kuis-content">
+              <div class="kuis-content m-2">
                 <h2 class="text-2xl font-semibold">Kuis Title</h2>
                 <p>Kuis Subtitle Lorem ipsum dolor sit amet.</p>
               </div>
             </a>
           </div>
 
-          <div class="kuis-card__wrapper flex-1 bg-ceria-cream rounded-lg">
-            <a href="">
-              <h2 class="text-2xl font-semibold">Kuis Lainnya</h2>
-              <p>Lihat Kuis Lainnya</p>
+          <div class="kuis-card__wrapper flex flex-col justify-center bg-ceria-cream rounded-lg">
+            <a class="flex md:flex-col justify-between m-4" href="">
+              <div class="kuis-content flex flex-col justify-center">
+                <h2 class="text-2xl font-semibold">Kuis Lainnya</h2>
+                <!-- <p>Lihat Kuis Lainnya</p> -->
+              </div>
+              <div class="kuis-other flex justify-center my-2">
+                <button class="rounded-full p-1">
+                  <img class="w-8 h-8" src="/assets/chevron_right_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+                </button>
+              </div>
             </a>
           </div>
         </div>
-      </section>
-      <section id="ceriaTanya">
-        <h1 class="text-4xl font-semibold text-center">Yuk Tanya Ceria Sekarang!</h1>
-
-      </section>
+    </div>
+    </section>
+    <section id="ceriaTanya" class="my-4">
+      <h1 class="text-4xl font-semibold text-center">Yuk Tanya Ceria Sekarang!</h1>
+      <div class="icon flex justify-center">
+        <img class="h-8 md:h-16 mx-4 my-8" src="assets/mail_FILL0_wght700_GRAD0_opsz48.svg" alt="">
+        <img class="h-8 md:h-16 mx-4 my-8" src="assets/call_FILL0_wght700_GRAD0_opsz48.svg" alt="">
+        <img class="h-8 md:h-16 mx-4 my-8" src="assets/chat_FILL0_wght700_GRAD0_opsz48.svg" alt="">
+        <img class="h-8 md:h-16 mx-4 my-8" src="assets/com.github.eneshecan.WhatsAppForLinux-symbolic.svg" alt="">
+      </div>
+      <div class="wrapper flex justify-center">
+        <button
+        class="px-4 py-2 mx-2 rounded-lg cursor-pointer border-2 text-center border-ceria-accent bg-ceria-accent text-ceria-light">
+        Tanya Ceria!
+      </button>
+    </div>
+    </section>
     </div>
   </main>
   <footer class="bg-ceria-cream">
