@@ -1,10 +1,16 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
 .hero {
   height: 500px;
-  background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/assets/f37-01-day.png');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/assets/f37-01-day.png");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.kuis-card__wrapper:hover .fill-ceria-text {
+  fill: #f2e3c6;
+  transition: fill 0.15s ease-in;
 }
