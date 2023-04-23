@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/tailwind.css" />
+    <link rel="stylesheet" href="/css/video.css" />
+    <link
+      rel="shortcut icon"
+      href="assets/logo-ceria_main-logo.svg "
+      type="image/x-icon"
+    />
+    <title>Video - CERIA</title>
+  </head>
+  <body
+    class="m-0 box-border bg-ceria-light p-0 font-sans text-step0 text-ceria-text"
+  >
+    <header>
+      <div class="container mx-auto px-4">
+        <div class="navigation-wrapper flex justify-between py-2">
+          <div class="icon">
+            <img src="/assets/logo-ceria_main-logo.svg" alt="" />
+          </div>
+          <!-- mobile nav button -->
+          <button class="mobile-menu-button block rounded-lg p-1 md:hidden">
+            <img src="/assets/menu_FILL0_wght500_GRAD0_opsz40.svg" alt="" />
+          </button>
+          <!-- desktop navigation -->
+          <nav class="hidden md:flex">
+            <ul class="flex-wrap items-center md:flex">
+              <li>
+                <a
+                  class="mx-2 cursor-pointer rounded-lg px-4 py-2 font-semibold transition hover:text-ceria-accent"
+                  href="/index.html"
+                  >Beranda</a
+                >
+              </li>
+              <li>
+                <a
+                  class="mx-2 cursor-pointer rounded-lg px-4 py-2 font-semibold transition hover:text-ceria-accent"
+                  href="/informasi.html"
+                  >Informasi</a
+                >
+              </li>
+              <li>
+                <a
+                  class="mx-2 cursor-pointer rounded-lg px-4 py-2 font-semibold transition hover:text-ceria-accent"
+                  href="/video.html"
+                  >Video</a
+                >
+              </li>
+              <li>
+                <a
+                  class="mx-2 cursor-pointer rounded-lg px-4 py-2 font-semibold transition hover:text-ceria-accent"
+                  href="/tentang.html"
+                  >Tentang</a
+                >
+              </li>
+              <li>
+                <a
+                  class="mx-2 cursor-pointer rounded-lg px-4 py-2 font-semibold transition hover:text-ceria-accent"
+                  href="/kuis.html"
+                  >Kuis</a
+                >
+              </li>
+              <li>
+                <a
+                  class="mx-2 cursor-pointer rounded-lg bg-ceria-accent px-4 py-2 font-semibold text-ceria-light transition hover:shadow-lg"
+                  href="/hubungi.html"
+                  >Tanya Ceria</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <!-- mobile navigation -->
+        <div class="mobile-navigation container mx-auto hidden px-4">
+          <ul class="">
+            <li class="my-3">
+              <a
+                class="cursor-pointer rounded-lg py-2 text-lg font-semibold transition hover:text-ceria-accent"
+                href="/index.html"
+                >Beranda</a
+              >
+            </li>
+            <li class="my-3">
+              <a
+                class="cursor-pointer rounded-lg py-2 text-lg font-semibold transition hover:text-ceria-accent"
+                href="/informasi.html"
+                >Informasi</a
+              >
+            </li>
+            <li class="my-3">
+              <a
+                class="cursor-pointer rounded-lg py-2 text-lg font-semibold transition hover:text-ceria-accent"
+                href="/video.html"
+                >Video</a
+              >
+            </li>
+            <li class="my-3">
+              <a
+                class="cursor-pointer rounded-lg py-2 text-lg font-semibold transition hover:text-ceria-accent"
+                href="/tentang.html"
+                >Tentang</a
+              >
+            </li>
+            <li class="my-3">
+              <a
+                class="cursor-pointer rounded-lg py-2 text-lg font-semibold transition hover:text-ceria-accent"
+                href="/kuis.html"
+                >Kuis</a
+              >
+            </li>
+          </ul>
+          <ul class="mt-8">
+            <li class="my-3">
+              <a
+                class="cursor-pointer rounded-lg py-2 text-lg font-semibold transition"
+                href="/hubungi.html"
+                >Tanya Ceria</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="hero flex flex-col items-center justify-evenly">
+        <div
+          class="hero-content container mx-auto flex flex-col justify-evenly px-4 text-center text-ceria-light"
+        >
+          <h1 class="my-2 text-7xl font-semibold">Video CERIA</h1>
+          <h2 class="my-2 text-4xl font-semibold">
+            Tonton Video Tentang Anemia
+          </h2>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container mx-auto px-4">
+        <section class="video">
+          <div class="video-section__title">
+            <h1 class="my-2 text-4xl font-semibold">Video Anemia</h1>
+            <p>Yuk Tonton video anemia pilihan CERIA</p>
+          </div>
+          <!-- video 1 -->
+          <div
+            class="video-section__video-wrapper my-8 flex flex-col gap-0 md:flex-row md:gap-8"
+          >
+            <div class="video-iframe flex-1">
+              <iframe
+                class="aspect-video h-full w-full rounded-2xl"
+                src="https://www.youtube-nocookie.com/embed/PpmHrshrO3o"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div class="video-desc flex flex-1 flex-col justify-center">
+              <div class="desc my-2 rounded-lg bg-ceria-cream p-4">
+                <h2 class="mb-2 text-2xl font-semibold">
+                  Dampak Anemia Terhadap Remaja
+                </h2>
+                <p>
+                  Salah satu masalah kesehatan yang dihadapi remaja Indonesia
+                  adalah masalah gizi mikronutrien di mana Kementerian Kesehatan
+                  RI merilis data sekitar 12 persen remaja laki-laki dan 23
+                  persen<span id="dots1">...</span
+                  ><span id="selengkapnya1">
+                    remaja perempuan mengalami anemia. Ditambahkan bila sebagian
+                    besar dari permasalahan itu diakibatkan kekurangan zat besi
+                    (anemia defisiensi besi). Ya, anemia di kalangan remaja
+                    perempuan ternyata lebih tinggi dibanding remaja laki-laki.
+                    Patut diketahui bahwa anemia pada remaja berdampak buruk
+                    terhadap penurunan imunitas, konsentrasi, prestasi belajar,
+                    kebugaran remaja dan produktifitas. Selain itu, secara
+                    khusus anemia yang dialami remaja putri akan berdampak lebih
+                    serius, mengingat mereka adalah para calon ibu yang akan
+                    hamil dan melahirkan seorang bayi, sehingga memperbesar
+                    risiko kematian ibu melahirkan, bayi lahir prematur dan
+                    berat bayi lahir rendah (BBLR). Anemia dapat dihindari
+                    dengan konsumsi makanan tinggi zat besi, asam folat, vitamin
+                    A, vitamin C dan zink, dan pemberian tablet tambah darah
+                    (TTD). Pemerintah memiliki program rutin terkait
+                    pendistribusian TTD bagi wanita usia subur (WUS), termasuk
+                    remaja dan ibu hamil.
+                  </span>
+                </p>
+                <button
+                  class="text-ceria-accent underline"
+                  onclick="readMore(1)"
+                  id="readMore1"
+                >
+                  Baca selengkapnya
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- video 2 -->
+          <div
+            class="video-section__video-wrapper my-8 flex flex-col md:flex-row md:gap-8"
+          >
+            <div class="video-iframe flex-1">
+              <iframe
+                class="aspect-video h-full w-full rounded-2xl"
+                src="https://www.youtube-nocookie.com/embed/5cJ6CMez2IY"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div class="video-desc flex flex-1 flex-col justify-center">
+              <div class="desc my-2 rounded-lg bg-ceria-cream p-4">
+                <h2 class="mb-2 text-2xl font-semibold">
+                  Anemia, Kenali Gejala dan Cara Mengatasinya
+                </h2>
+                <p>
+                  Anemia adalah kondisi di mana kadar hemoglobin atau sel darah
+                  merah di dalam tubuh kurang dari normal atau ketika sel darah
+                  merah tidak berfungsi dengan baik. Akibatnya,<span id="dots2"
+                    >...</span
+                  ><span id="selengkapnya2">
+                    organ tubuh tidak mendapat oksigen yang cukup, sehingga
+                    penderita anemia pucat dan mudah lelah. Anemia dapat terjadi
+                    sementara atau dalam jangka panjang, dengan tingkat
+                    keparahan yang bisa ringat sampai berat. Hal ini disebabkan
+                    ketika tubuh kekurangan sel darah merah sehat atau
+                    hemoglobin. Akibatnya sel-sel dalam tubuh tidak mendapat
+                    cukup oksigen dan tidak berfungsi secara normal.
+                  </span>
+                </p>
+                <button
+                  class="text-ceria-accent underline"
+                  onclick="readMore(2)"
+                  id="readMore2"
+                >
+                  Baca Selengkapnya
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- video 3 -->
+          <div
+            class="video-section__video-wrapper my-8 flex flex-col md:flex-row md:gap-8"
+          >
+            <div class="video-iframe flex-1">
+              <iframe
+                class="aspect-video h-full w-full rounded-2xl"
+                src="https://www.youtube-nocookie.com/embed/o3LHWkbbU6M"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div class="video-desc flex flex-1 flex-col justify-center">
+              <div class="desc my-2 rounded-lg bg-ceria-cream p-4">
+                <h2 class="mb-2 text-2xl font-semibold">Apa itu Anemia?</h2>
+                <p>
+                  Penyakit anemia adalah suatu kondisi di mana jumlah sel darah
+                  merah kamu lebih rendah dari jumlah normal. Anemia juga bisa
+                  terjadi jika sel-sel darah merah tidak mengandung cukup
+                  hemoglobin. Hemogl
+                  <span id="dots3">...</span
+                  ><span id="selengkapnya3">
+                    obin adalah protein kaya zat besi yang memberikan warna
+                    merah darah. Protein ini membantu sel-sel darah merah
+                    membawa oksigen dari paru-paru ke seluruh tubuh. Jika kamu
+                    memiliki anemia, tubuh kamu tidak mendapatkan cukup darah
+                    yang kaya oksigen. Akibatnya, kamu mungkin merasa lelah atau
+                    lemah. Kamu juga mungkin memiliki gejala lain, seperti sesak
+                    napas, pusing, atau sakit kepala.
+                  </span>
+                </p>
+                <button
+                  class="text-ceria-accent underline"
+                  onclick="readMore(3)"
+                  id="readMore3"
+                >
+                  Baca Selengkapnya
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- video 4 -->
+          <div
+            class="video-section__video-wrapper my-8 flex flex-col md:flex-row md:gap-8"
+          >
+            <div class="video-iframe flex-1">
+              <iframe
+                class="aspect-video h-full w-full rounded-2xl"
+                src="https://www.youtube-nocookie.com/embed/7hK20K0THhA"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div class="video-desc flex flex-1 flex-col justify-center">
+              <div class="desc my-2 rounded-lg bg-ceria-cream p-4">
+                <h2 class="mb-2 text-2xl font-semibold">
+                  Apa itu Anemia? Kenali Gejalanya
+                </h2>
+                <p>
+                  Anemia merupakan penyakit yang ditimbulkan karena kurangnya
+                  jumlah sel darah merah dari batas semestinya. Biasanya anemia
+                  ini terjadi ketika hemoglobin di dalam sel darah merah tidak
+                  cukup.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- video 5 -->
+          <div
+            class="video-section__video-wrapper my-8 flex flex-col md:flex-row md:gap-8"
+          >
+            <div class="video-iframe flex-1">
+              <iframe
+                class="aspect-video h-full w-full rounded-2xl"
+                src="https://www.youtube-nocookie.com/embed/9O43JqE8vHU"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div class="video-desc flex flex-1 flex-col justify-center">
+              <div class="desc my-2 rounded-lg bg-ceria-cream p-4">
+                <h2 class="mb-2 text-2xl font-semibold">
+                  Makanan yang Baik Dikonsumsi Penderita Anemia
+                </h2>
+                <p>
+                  Penyakit anemia menimbulkan beberapa gejala seperti lemas,
+                  lesu, tidak bertenaga, wajah pucat, sulit berkonsentrasi,
+                  hingga pusing saat berdiri. Bahkan, tak jarang penderita
+                  anemia yang<span id="dots5">...</span
+                  ><span id="selengkapnya5">
+                    pingsan ketika kadar gula darahnya menurun. Oleh karena itu,
+                    penderita anemia dianjurkan mengonsumsi makanan bergizi yang
+                    mengandung zat besi tinggi. Berikut daftar makanannya.
+                  </span>
+                </p>
+                <button
+                  class="text-ceria-accent underline"
+                  onclick="readMore(5)"
+                  id="readMore5"
+                >
+                  Baca Selengkapnya
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- video 6 -->
+          <div
+            class="video-section__video-wrapper my-8 flex flex-col md:flex-row md:gap-8"
+          >
+            <div class="video-iframe flex-1">
+              <iframe
+                class="aspect-video h-full w-full rounded-2xl"
+                src="https://www.youtube-nocookie.com/embed/WqK5Ay3jMgA"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div class="video-desc flex flex-1 flex-col justify-center">
+              <div class="desc my-2 rounded-lg bg-ceria-cream p-4">
+                <h2 class="mb-2 text-2xl font-semibold">
+                  7 Gejala Umum Penyakit Anemia yang Perlu Diwaspadai
+                </h2>
+                <p>
+                  Ada beberapa gejala umum penyakit anemia yang perlu kamu
+                  waspadai, seperti pusing dan mudah lelah.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- video 7 -->
+          <div
+            class="video-section__video-wrapper my-8 flex flex-col md:flex-row md:gap-8"
+          >
+            <div class="video-iframe flex-1">
+              <iframe
+                class="aspect-video h-full w-full rounded-2xl"
+                src="https://www.youtube-nocookie.com/embed/ZTxJHQ-X_kc"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div class="video-desc flex flex-1 flex-col justify-center">
+              <div class="desc my-2 rounded-lg bg-ceria-cream p-4">
+                <h2 class="mb-2 text-2xl font-semibold">
+                  CAMAR (Cegah Anemia MAsa Remaja)
+                </h2>
+                <p>
+                  CAMAR adalah Video edukasi untuk meningkatkan perilaku
+                  pencegahan anemia pada remaja. Dibuat oleh Ibu Munica Rita H,
+                  S.SiT, M.Kes untuk penelitian pada remaja
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="bg-ceria-cream">
+      <div class="container mx-auto flex flex-col gap-2 px-4 py-8 md:flex-row">
+        <div class="wrapper flex-1">
+          <img src="/assets/logo-ceria_text-logo.svg" alt="" />
+          <p class="my-4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
+            ipsa?
+          </p>
+        </div>
+        <div class="wrapper flex-1">
+          <ul class="flex flex-col">
+            <li class="my-2">
+              <a
+                class="cursor-pointer rounded-lg font-semibold transition hover:text-ceria-accent md:p-2"
+                href="/"
+                >Beranda</a
+              >
+            </li>
+            <li class="my-2">
+              <a
+                class="cursor-pointer rounded-lg font-semibold transition hover:text-ceria-accent md:p-2"
+                href="/informasi.html"
+                >Informasi</a
+              >
+            </li>
+            <li class="my-2">
+              <a
+                class="cursor-pointer rounded-lg font-semibold transition hover:text-ceria-accent md:p-2"
+                href="/video.html"
+                >Video</a
+              >
+            </li>
+            <li class="my-2">
+              <a
+                class="cursor-pointer rounded-lg font-semibold transition hover:text-ceria-accent md:p-2"
+                href="tentang.html"
+                >Tentang</a
+              >
+            </li>
+            <li class="my-2">
+              <a
+                class="cursor-pointer rounded-lg font-semibold transition hover:text-ceria-accent md:p-2"
+                href="kuis.html"
+                >Kuis</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <p class="container mx-auto p-4 text-center">
+        &copy; 2023 Ceria. All rights reserved.
+      </p>
+    </footer>
+    <script src="/js/video.js"></script>
+  </body>
+</html>
