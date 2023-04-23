@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/tailwind.css" />
+    <link rel="stylesheet" href="/css/kuis.css" />
+    <link
+      rel="shortcut icon"
+      href="assets/logo-ceria_main-logo.svg "
+      type="image/x-icon"
+    />
+    <title>Kuis - CERIA</title>
+  </head>
+
+  <body
+    class="m-0 box-border bg-ceria-light p-0 font-sans text-step0 text-ceria-text"
+  >
+    <header>
+      <div class="container mx-auto px-4">
+        <div class="navigation-wrapper flex justify-between py-2">
+          <div class="icon">
+            <img src="/assets/logo-ceria_main-logo.svg" alt="" />
+          </div>
+          <!-- mobile nav button -->
+          <button class="mobile-menu-button block rounded-lg p-1 md:hidden">
+            <img src="/assets/menu_FILL0_wght500_GRAD0_opsz40.svg" alt="" />
+          </button>
+          <!-- desktop navigation -->
+          <nav class="hidden md:flex">
+            <ul class="flex-wrap items-center md:flex">
+              <li>
+                <a
+                  class="mx-2 cursor-pointer rounded-lg px-4 py-2 font-semibold transition hover:text-ceria-accent"
+                  href="/index.html"
+                  >Beranda</a
+                >
+              </li>
+              <li>
+                <a
+                  class="mx-2 cursor-pointer rounded-lg px-4 py-2 font-semibold transition hover:text-ceria-accent"
+                  href="/informasi.html"
+                  >Informasi</a
+                >
+              </li>
+              <li>
+                <a
+                  class="mx-2 cursor-pointer rounded-lg px-4 py-2 font-semibold transition hover:text-ceria-accent"
+                  href="/video.html"
+                  >Video</a
+                >
+              </li>
+              <li>
+                <a
+                  class="mx-2 cursor-pointer rounded-lg px-4 py-2 font-semibold transition hover:text-ceria-accent"
+                  href="/tentang.html"
+                  >Tentang</a
+                >
+              </li>
+              <li>
+                <a
+                  class="mx-2 cursor-pointer rounded-lg px-4 py-2 font-semibold transition hover:text-ceria-accent"
+                  href="/kuis.html"
+                  >Kuis</a
+                >
+              </li>
+              <li>
+                <a
+                  class="mx-2 cursor-pointer rounded-lg bg-ceria-accent px-4 py-2 font-semibold text-ceria-light transition hover:shadow-lg"
+                  href="/hubungi.html"
+                  >Tanya Ceria</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <!-- mobile navigation -->
+        <div class="mobile-navigation container mx-auto hidden px-4">
+          <ul class="">
+            <li class="my-3">
+              <a
+                class="cursor-pointer rounded-lg py-2 text-lg font-semibold transition hover:text-ceria-accent"
+                href="/index.html"
+                >Beranda</a
+              >
+            </li>
+            <li class="my-3">
+              <a
+                class="cursor-pointer rounded-lg py-2 text-lg font-semibold transition hover:text-ceria-accent"
+                href="/informasi.html"
+                >Informasi</a
+              >
+            </li>
+            <li class="my-3">
+              <a
+                class="cursor-pointer rounded-lg py-2 text-lg font-semibold transition hover:text-ceria-accent"
+                href="/video.html"
+                >Video</a
+              >
+            </li>
+            <li class="my-3">
+              <a
+                class="cursor-pointer rounded-lg py-2 text-lg font-semibold transition hover:text-ceria-accent"
+                href="/tentang.html"
+                >Tentang</a
+              >
+            </li>
+            <li class="my-3">
+              <a
+                class="cursor-pointer rounded-lg py-2 text-lg font-semibold transition hover:text-ceria-accent"
+                href="/kuis.html"
+                >Kuis</a
+              >
+            </li>
+          </ul>
+          <ul class="mt-8">
+            <li class="my-3">
+              <a
+                class="cursor-pointer rounded-lg py-2 text-lg font-semibold transition"
+                href="/hubungi.html"
+                >Tanya Ceria</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="hero flex flex-col items-center justify-evenly">
+        <div
+          class="hero-content container mx-auto flex flex-col justify-evenly px-4 text-center text-ceria-light"
+        >
+          <h1 class="my-2 text-7xl font-semibold">KUIS CERIA</h1>
+          <h2 class="my-2 text-4xl font-semibold">
+            Uji Pengetahuanmu dengan Kuis
+          </h2>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container mx-auto px-4">
+        <section class="kuis-card my-8">
+          <h1 class="text-4xl font-semibold">Kuis Ceria</h1>
+          <p>Seberapa mahir anda dalam anemia?</p>
+          <div class="wrapper my-4 grid gap-2 md:grid-cols-3">
+            <div
+              class="kuis-card__wrapper rounded-lg bg-ceria-cream transition-colors hover:bg-ceria-accent hover:text-ceria-light"
+            >
+              <a class="flex flex-col" href="">
+                <div class="kuis-img">
+                  <img
+                    class="h-32 w-full rounded-lg object-cover"
+                    src="/assets/f37-01-day.png"
+                    alt=""
+                  />
+                </div>
+                <div class="kuis-content m-2">
+                  <h2 class="text-2xl font-semibold">Kuis Title</h2>
+                  <p>Kuis Subtitle Lorem ipsum dolor sit amet.</p>
+                </div>
+              </a>
+            </div>
+
+            <div
+              class="kuis-card__wrapper rounded-lg bg-ceria-cream transition-colors hover:bg-ceria-accent hover:text-ceria-light"
+            >
+              <a class="flex flex-col" href="">
+                <div class="kuis-img">
+                  <img
+                    class="h-32 w-full rounded-lg object-cover"
+                    src="/assets/f37-01-day.png"
+                    alt=""
+                  />
+                </div>
+                <div class="kuis-content m-2">
+                  <h2 class="text-2xl font-semibold">Kuis Title</h2>
+                  <p>Kuis Subtitle Lorem ipsum dolor sit amet.</p>
+                </div>
+              </a>
+            </div>
+            <div
+              class="kuis-card__wrapper rounded-lg bg-ceria-cream transition-colors hover:bg-ceria-accent hover:text-ceria-light"
+            >
+              <a class="flex flex-col" href="">
+                <div class="kuis-img">
+                  <img
+                    class="h-32 w-full rounded-lg object-cover"
+                    src="/assets/f37-01-day.png"
+                    alt=""
+                  />
+                </div>
+                <div class="kuis-content m-2">
+                  <h2 class="text-2xl font-semibold">Kuis Title</h2>
+                  <p>Kuis Subtitle Lorem ipsum dolor sit amet.</p>
+                </div>
+              </a>
+            </div>
+            <div
+              class="kuis-card__wrapper rounded-lg bg-ceria-cream transition-colors hover:bg-ceria-accent hover:text-ceria-light"
+            >
+              <a class="flex flex-col" href="">
+                <div class="kuis-img">
+                  <img
+                    class="h-32 w-full rounded-lg object-cover"
+                    src="/assets/f37-01-day.png"
+                    alt=""
+                  />
+                </div>
+                <div class="kuis-content m-2">
+                  <h2 class="text-2xl font-semibold">Kuis Title</h2>
+                  <p>Kuis Subtitle Lorem ipsum dolor sit amet.</p>
+                </div>
+              </a>
+            </div>
+            <div
+              class="kuis-card__wrapper rounded-lg bg-ceria-cream transition-colors hover:bg-ceria-accent hover:text-ceria-light"
+            >
+              <a class="flex flex-col" href="">
+                <div class="kuis-img">
+                  <img
+                    class="h-32 w-full rounded-lg object-cover"
+                    src="/assets/f37-01-day.png"
+                    alt=""
+                  />
+                </div>
+                <div class="kuis-content m-2">
+                  <h2 class="text-2xl font-semibold">Kuis Title</h2>
+                  <p>Kuis Subtitle Lorem ipsum dolor sit amet.</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <script src="/js/navigation.js"></script>
+  </body>
+</html>
