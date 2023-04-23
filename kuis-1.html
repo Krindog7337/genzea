@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="stylesheet" href="/css/tailwind.css" />
+    <link rel="stylesheet" href="/css/kuis-1.css" />
+    <link rel="stylesheet" href="/css/radiobutton.css" />
+    <link
+      rel="shortcut icon"
+      href="assets/logo-ceria_main-logo.svg "
+      type="image/x-icon"
+    />
+    <title>Kuis 1 - CERIA</title>
+  </head>
+  <body
+    class="m-0 box-border bg-ceria-light p-0 font-sans text-step0 text-ceria-text"
+  >
+    <header>
+      <div class="container mx-auto px-4">
+        <div class="navigation-wrapper flex justify-between py-2">
+          <div class="icon">
+            <img src="/assets/logo-ceria_main-logo.svg" alt="" />
+          </div>
+          <!-- mobile nav button -->
+          <button class="mobile-menu-button block rounded-lg p-1 md:hidden">
+            <img src="/assets/menu_FILL0_wght500_GRAD0_opsz40.svg" alt="" />
+          </button>
+          <!-- desktop navigation -->
+          <nav class="hidden md:flex">
+            <ul class="flex-wrap items-center md:flex">
+              <li>
+                <a
+                  class="mx-2 cursor-pointer rounded-lg px-4 py-2 font-semibold transition hover:text-ceria-accent"
+                  href="/index.html"
+                  >Beranda</a
+                >
+              </li>
+              <li>
+                <a
+                  class="mx-2 cursor-pointer rounded-lg px-4 py-2 font-semibold transition hover:text-ceria-accent"
+                  href="/informasi.html"
+                  >Informasi</a
+                >
+              </li>
+              <li>
+                <a
+                  class="mx-2 cursor-pointer rounded-lg px-4 py-2 font-semibold transition hover:text-ceria-accent"
+                  href="/video.html"
+                  >Video</a
+                >
+              </li>
+              <li>
+                <a
+                  class="mx-2 cursor-pointer rounded-lg px-4 py-2 font-semibold transition hover:text-ceria-accent"
+                  href="/tentang.html"
+                  >Tentang</a
+                >
+              </li>
+              <li>
+                <a
+                  class="mx-2 cursor-pointer rounded-lg px-4 py-2 font-semibold transition hover:text-ceria-accent"
+                  href="/kuis.html"
+                  >Kuis</a
+                >
+              </li>
+              <li>
+                <a
+                  class="mx-2 cursor-pointer rounded-lg bg-ceria-accent px-4 py-2 font-semibold text-ceria-light transition hover:shadow-lg"
+                  href="/hubungi.html"
+                  >Tanya Ceria</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <!-- mobile navigation -->
+        <div class="mobile-navigation container mx-auto hidden px-4">
+          <ul class="">
+            <li class="my-3">
+              <a
+                class="cursor-pointer rounded-lg py-2 text-lg font-semibold transition hover:text-ceria-accent"
+                href="/index.html"
+                >Beranda</a
+              >
+            </li>
+            <li class="my-3">
+              <a
+                class="cursor-pointer rounded-lg py-2 text-lg font-semibold transition hover:text-ceria-accent"
+                href="/informasi.html"
+                >Informasi</a
+              >
+            </li>
+            <li class="my-3">
+              <a
+                class="cursor-pointer rounded-lg py-2 text-lg font-semibold transition hover:text-ceria-accent"
+                href="/video.html"
+                >Video</a
+              >
+            </li>
+            <li class="my-3">
+              <a
+                class="cursor-pointer rounded-lg py-2 text-lg font-semibold transition hover:text-ceria-accent"
+                href="/tentang.html"
+                >Tentang</a
+              >
+            </li>
+            <li class="my-3">
+              <a
+                class="cursor-pointer rounded-lg py-2 text-lg font-semibold transition hover:text-ceria-accent"
+                href="/kuis.html"
+                >Kuis</a
+              >
+            </li>
+          </ul>
+          <ul class="mt-8">
+            <li class="my-3">
+              <a
+                class="cursor-pointer rounded-lg py-2 text-lg font-semibold transition"
+                href="/hubungi.html"
+                >Tanya Ceria</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="hero flex flex-col items-center justify-evenly bg-slate-400">
+        <div
+          class="hero-content container mx-auto flex flex-col justify-evenly px-4 text-center text-ceria-light"
+        >
+          <h1 class="my-2 text-7xl font-semibold">KUIS CERIA</h1>
+          <h2 class="my-2 text-4xl font-semibold">Kuis Title here</h2>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container mx-auto px-4">
+        <section class="my-8 md:mx-96">
+          <form id="form-kuis" class="flex flex-col gap-2">
+            <div class="wrapper-quiz-card rounded-lg bg-ceria-cream p-2">
+              <div class="wrapper-question px-2 py-1">
+                <h1 class="text-4xl font-semibold">Soal 1</h1>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Voluptas, similique.?
+                </p>
+              </div>
+              <div
+                class="m-1 flex flex-col gap-2 rounded-md bg-ceria-light px-2 py-3"
+              >
+                <label class="flex items-center">
+                  <input type="radio" class="form-radio" name="q1" value="a" />
+                  <span class="ml-2">AAAAAAAA</span>
+                </label>
+
+                <label class="flex items-center">
+                  <input type="radio" class="form-radio" name="q1" value="b" />
+                  <span class="ml-2">BBBBBBBBBBB</span>
+                </label>
+
+                <label class="flex items-center">
+                  <input type="radio" class="form-radio" name="q1" value="c" />
+                  <span class="ml-2">CCCC</span>
+                </label>
+              </div>
+            </div>
+            <div class="wrapper-quiz-card rounded-lg bg-ceria-cream p-2">
+              <div class="wrapper-question px-2 py-1">
+                <h1 class="text-4xl font-semibold">Soal 1</h1>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Voluptas, similique.?
+                </p>
+              </div>
+              <div
+                class="m-1 flex flex-col gap-2 rounded-md bg-ceria-light px-2 py-3"
+              >
+                <label class="flex items-center">
+                  <input type="radio" class="form-radio" name="q2" value="a" />
+                  <span class="ml-2">AAAAAAAA</span>
+                </label>
+
+                <label class="flex items-center">
+                  <input type="radio" class="form-radio" name="q2" value="b" />
+                  <span class="ml-2">BBBBBBBBBBB</span>
+                </label>
+
+                <label class="flex items-center">
+                  <input type="radio" class="form-radio" name="q2" value="c" />
+                  <span class="ml-2">CCCC</span>
+                </label>
+              </div>
+            </div>
+            <div class="wrapper-quiz-card rounded-lg bg-ceria-cream p-2">
+              <div class="wrapper-question px-2 py-1">
+                <h1 class="text-4xl font-semibold">Soal 1</h1>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Voluptas, similique.?
+                </p>
+              </div>
+              <div
+                class="m-1 flex flex-col gap-2 rounded-md bg-ceria-light px-2 py-3"
+              >
+                <label class="flex items-center">
+                  <input type="radio" class="form-radio" name="q3" value="a" />
+                  <span class="ml-2">AAAAAAAA</span>
+                </label>
+
+                <label class="flex items-center">
+                  <input type="radio" class="form-radio" name="q3" value="b" />
+                  <span class="ml-2">BBBBBBBBBBB</span>
+                </label>
+
+                <label class="flex items-center">
+                  <input type="radio" class="form-radio" name="q3" value="c" />
+                  <span class="ml-2">CCCC</span>
+                </label>
+              </div>
+            </div>
+            <div class="wrapper-quiz-card rounded-lg bg-ceria-cream p-2">
+              <div class="wrapper-question px-2 py-1">
+                <h1 class="text-4xl font-semibold">Soal 1</h1>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Voluptas, similique.?
+                </p>
+              </div>
+              <div
+                class="m-1 flex flex-col gap-2 rounded-md bg-ceria-light px-2 py-3"
+              >
+                <label class="flex items-center">
+                  <input type="radio" class="form-radio" name="q4" value="a" />
+                  <span class="ml-2">AAAAAAAA</span>
+                </label>
+
+                <label class="flex items-center">
+                  <input type="radio" class="form-radio" name="q4" value="b" />
+                  <span class="ml-2">BBBBBBBBBBB</span>
+                </label>
+
+                <label class="flex items-center">
+                  <input type="radio" class="form-radio" name="q4" value="c" />
+                  <span class="ml-2">CCCC</span>
+                </label>
+              </div>
+            </div>
+            <div class="wrapper-quiz-card rounded-lg bg-ceria-cream p-2">
+              <div class="wrapper-question px-2 py-1">
+                <h1 class="text-4xl font-semibold">Soal 1</h1>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Voluptas, similique.?
+                </p>
+              </div>
+              <div
+                class="m-1 flex flex-col gap-2 rounded-md bg-ceria-light px-2 py-3"
+              >
+                <label class="flex items-center">
+                  <input type="radio" class="form-radio" name="q5" value="a" />
+                  <span class="ml-2">AAAAAAAA</span>
+                </label>
+
+                <label class="flex items-center">
+                  <input type="radio" class="form-radio" name="q5" value="b" />
+                  <span class="ml-2">BBBBBBBBBBB</span>
+                </label>
+
+                <label class="flex items-center">
+                  <input type="radio" class="form-radio" name="q5" value="c" />
+                  <span class="ml-2">CCCC</span>
+                </label>
+              </div>
+            </div>
+            <div class="wrapper my-4 flex flex-row-reverse justify-between">
+              <button
+                class="cursor-pointer rounded-lg border-2 border-ceria-accent bg-ceria-accent px-4 py-2 text-center text-ceria-light shadow-lg"
+                type="submit"
+              >
+                Lihat Hasil
+              </button>
+              <div class="flex flex-col justify-center" id="scoreDisplay"></div>
+            </div>
+          </form>
+        </section>
+      </div>
+    </main>
+    <script src="/js/navigation.js"></script>
+    <script src="/js/kuis-1.js"></script>
+  </body>
+</html>

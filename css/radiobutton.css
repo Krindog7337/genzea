@@ -1,0 +1,39 @@
+/* Hide the default radio buttons */
+.form-radio {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: inline-block;
+  vertical-align: middle;
+  background-origin: border-box;
+  user-select: none;
+  flex-shrink: 0;
+  height: 1.5rem;
+  width: 1.5rem;
+  color: #667eea;
+  background-color: #fff;
+  border-color: #cbd5e0;
+  border-width: 0px;
+  border-radius: 100%;
+  transition: all 0.2s;
+}
+
+/* Add a custom radio button appearance using the ::before pseudo-element */
+.form-radio::before {
+  content: "";
+  display: inline-block;
+  /* vertical-align: middle; */
+  box-sizing: border-box;
+  margin: 0.25rem;
+  /* border: 1px solid #ffc6a5; */
+  border-radius: 50%;
+  width: 1rem;
+  height: 1rem;
+  transition: all 0.2s;
+}
+
+/* Show the custom radio button when the radio button is checked */
+.form-radio:checked::before {
+  /* background-color: #e6324b; */
+  border: solid 4px #e6324b;
+}
