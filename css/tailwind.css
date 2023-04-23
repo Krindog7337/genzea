@@ -2580,6 +2580,11 @@ video {
   a-z-a--z-: #;
 }
 
+.this-page {
+  --tw-text-opacity: 1;
+  color: rgb(230 50 75 / var(--tw-text-opacity));
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
@@ -2657,6 +2662,27 @@ video {
 
 .hover\:focus\:text-center:focus:hover {
   text-align: center;
+}
+
+@media (prefers-color-scheme: dark) {
+  .dark\:bg-ceria-dark {
+    --tw-bg-opacity: 1;
+    background-color: rgb(53 54 52 / var(--tw-bg-opacity));
+  }
+
+  .dark\:bg-ceria-text {
+    --tw-bg-opacity: 1;
+    background-color: rgb(43 43 43 / var(--tw-bg-opacity));
+  }
+
+  .dark\:fill-ceria-light {
+    fill: #f2e3c6;
+  }
+
+  .dark\:text-ceria-light {
+    --tw-text-opacity: 1;
+    color: rgb(242 227 198 / var(--tw-text-opacity));
+  }
 }
 
 @media (min-width: 640px) {

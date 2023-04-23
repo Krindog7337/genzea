@@ -21,14 +21,14 @@
   </head>
 
   <body
-    class="m-0 box-border bg-ceria-light p-0 font-sans text-step0 text-ceria-text"
+    class="m-0 box-border bg-ceria-light p-0 font-sans text-step0 text-ceria-text dark:bg-ceria-dark dark:text-ceria-light"
   >
     <header>
       <div class="container mx-auto px-4">
         <div class="navigation-wrapper flex justify-between py-2">
-          <div class="icon">
+          <a class="icon" href="/index.html">
             <img src="/assets/logo-ceria_main-logo.svg" alt="" />
-          </div>
+          </a>
           <!-- mobile nav button -->
           <button class="mobile-menu-button block rounded-lg p-1 md:hidden">
             <img src="/assets/menu_FILL0_wght500_GRAD0_opsz40.svg" alt="" />
@@ -38,7 +38,7 @@
             <ul class="flex-wrap items-center md:flex">
               <li>
                 <a
-                  class="mx-2 cursor-pointer rounded-lg px-4 py-2 font-semibold transition hover:text-ceria-accent"
+                  class="this-page mx-2 cursor-pointer rounded-lg px-4 py-2 font-semibold transition hover:text-ceria-accent"
                   href="/index.html"
                   >Beranda</a
                 >
@@ -252,7 +252,7 @@
             class="anemia__kuis-card flex flex-col gap-2 text-left md:flex-row"
           >
             <div
-              class="kuis-card__wrapper flex-1 rounded-lg bg-ceria-cream transition-colors hover:bg-ceria-accent hover:text-ceria-light"
+              class="kuis-card__wrapper flex-1 rounded-lg bg-ceria-cream transition-colors hover:bg-ceria-accent hover:text-ceria-light dark:bg-ceria-text"
             >
               <a class="flex flex-col" href="">
                 <div class="kuis-img">
@@ -269,7 +269,7 @@
               </a>
             </div>
             <div
-              class="kuis-card__wrapper flex-1 rounded-lg bg-ceria-cream transition-colors hover:bg-ceria-accent hover:text-ceria-light"
+              class="kuis-card__wrapper flex-1 rounded-lg bg-ceria-cream transition-colors hover:bg-ceria-accent hover:text-ceria-light dark:bg-ceria-text"
             >
               <a class="flex flex-col" href="">
                 <div class="kuis-img">
@@ -287,12 +287,12 @@
             </div>
 
             <div
-              class="kuis-card__wrapper flex flex-col justify-center rounded-lg bg-ceria-cream transition-all hover:bg-ceria-accent hover:text-ceria-light"
+              class="kuis-card__wrapper flex flex-col justify-center rounded-lg bg-ceria-cream transition-all hover:bg-ceria-accent hover:text-ceria-light dark:bg-ceria-text"
             >
               <a
                 tabindex="-1"
-                class="m-4 flex justify-between md:flex-col"
-                href=""
+                class="m-4 flex cursor-pointer justify-between md:flex-col"
+                href="/kuis.html"
               >
                 <div class="kuis-content flex flex-col justify-center">
                   <h2 class="text-2xl font-semibold">Kuis Lainnya</h2>
@@ -304,7 +304,7 @@
                     <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
                     <svg
-                      class="fill-ceria-text md:hover:fill-ceria-light"
+                      class="fill-ceria-text dark:fill-ceria-light"
                       version="1.1"
                       id="svg183"
                       xml:space="preserve"
@@ -402,7 +402,7 @@
         </section>
       </div>
     </main>
-    <footer class="bg-ceria-cream">
+    <footer class="bg-ceria-cream dark:bg-ceria-text">
       <div class="container mx-auto flex flex-col gap-2 px-4 py-8 md:flex-row">
         <div class="wrapper flex-1">
           <img src="/assets/logo-ceria_text-logo.svg" alt="" />
