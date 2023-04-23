@@ -5,3 +5,27 @@
 .this-page {
   @apply text-ceria-accent;
 }
+
+body {
+  @apply box-border bg-ceria-light font-sans text-step0 text-ceria-text dark:bg-ceria-dark dark:text-ceria-light;
+}
+
+footer {
+  @apply bg-ceria-cream dark:bg-ceria-text;
+}
+
+.kuis-card__wrapper {
+  @apply rounded-lg bg-ceria-cream transition-colors hover:bg-ceria-accent hover:text-ceria-light dark:bg-ceria-text;
+}
+
+.video-desc > .desc {
+  @apply my-2 rounded-lg bg-ceria-cream p-4 dark:bg-ceria-text;
+}
+
+h1 {
+  @apply mb-2 text-4xl font-semibold;
+}
+
+h2 {
+  @apply mb-2 text-2xl font-semibold;
+}
