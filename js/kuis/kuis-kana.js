@@ -6,7 +6,7 @@ form.addEventListener("submit", function (event) {
 
 function calculateScore() {
   var score = 0;
-  var answers = ["a", "c", "c", "a", "b"]; // array of correct answers
+  var answers = ["b", "c", "a", "c", "c"]; // array of correct answers
 
   var q1 = document.forms["form-kuis"]["q1"].value;
   var q2 = document.forms["form-kuis"]["q2"].value;

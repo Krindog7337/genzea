@@ -14,12 +14,11 @@
     <link rel="stylesheet" href="/css/kuis.css" />
     <link
       rel="shortcut icon"
-      href="/assets/logo-ceria_main-logo.svg "
+      href="/assets/logo-ceria_main-logo.svg"
       type="image/x-icon"
     />
-    <title>Kuis - CERIA</title>
+    <title>Kuis MANA (Makanan Anemia) - Ceria</title>
   </head>
-
   <body>
     <header>
       <div class="container mx-auto px-4">
@@ -64,7 +63,7 @@
               </li>
               <li>
                 <a
-                  class="mx-2 cursor-pointer rounded-lg px-4 py-2 font-semibold transition hover:text-ceria-accent"
+                  class="this-page mx-2 cursor-pointer rounded-lg px-4 py-2 font-semibold transition hover:text-ceria-accent"
                   href="/kuis.html"
                   >Kuis</a
                 >
@@ -129,120 +128,152 @@
           </ul>
         </div>
       </div>
-      <div class="hero flex flex-col items-center justify-evenly">
+      <div
+        class="hero hero_mana flex flex-col items-center justify-evenly bg-slate-400"
+      >
         <div
           class="hero-content container mx-auto flex flex-col justify-evenly px-4 text-center text-ceria-light"
         >
-          <h1 class="my-2 text-7xl font-semibold">KUIS CERIA</h1>
-          <h2 class="my-2 text-4xl font-semibold">
-            Uji Pengetahuanmu dengan Kuis
-          </h2>
+          <h1 class="my-2 text-7xl font-semibold">Kuis MANA</h1>
+          <h2 class="my-2 text-4xl font-semibold">Makanan Anemia</h2>
         </div>
       </div>
     </header>
     <main>
       <div class="container mx-auto px-4">
-        <section class="kuis-card">
-          <h1 class="text-4xl font-semibold">Kuis Ceria</h1>
-          <p>Seberapa mahir anda dalam anemia?</p>
-          <div class="wrapper my-4 grid gap-2 md:grid-cols-3">
-            <div class="kuis-card__wrapper">
-              <a class="flex flex-col" href="/kuis/kuis-peta.html">
-                <div class="kuis-img">
-                  <img
-                    class="h-32 w-full rounded-lg object-cover"
-                    src="/assets/sampel-darah.webp"
-                    alt=""
-                  />
-                </div>
-                <div class="kuis-content m-2">
-                  <h2>PETA (Pengetahuan Anemia)</h2>
-                  <p>
-                    Tes seberapa banyak yang kamu ketahui tentang anemia dengan
-                    menjawab kuis ini!
-                  </p>
-                </div>
-              </a>
-            </div>
+        <section class="mx-auto flex flex-col md:max-w-xl">
+          <form id="form-kuis" class="flex flex-col gap-2">
+            <div class="wrapper-quiz-card rounded-lg bg-ceria-cream p-2">
+              <div class="wrapper-question px-2 py-1">
+                <h1>Soal 1</h1>
+                <p>
+                  Anemia pada bayi dan anak-anak dapat disebabkan oleh
+                  kekurangan...
+                </p>
+              </div>
+              <div class="wrapper-quiz-answer">
+                <label class="flex items-center">
+                  <input type="radio" class="form-radio" name="q1" value="a" />
+                  <span class="ml-2">Vitamin D</span>
+                </label>
 
-            <div class="kuis-card__wrapper">
-              <a class="flex flex-col" href="/kuis/kuis-mana.html">
-                <div class="kuis-img">
-                  <img
-                    class="h-32 w-full rounded-lg object-cover"
-                    src="/assets/makanan-sehat.webp"
-                    alt=""
-                  />
-                </div>
-                <div class="kuis-content m-2">
-                  <h2>MANA (Makanan Anemia)</h2>
-                  <p>
-                    Yakin terhindar dari anemia? Coba jawab kuis ini dan lihat
-                    seberapa banyak yang kamu ketahui tentang makanan sehat yang
-                    mampu mencegah anemia!.
-                  </p>
-                </div>
-              </a>
+                <label class="flex items-center">
+                  <input type="radio" class="form-radio" name="q1" value="b" />
+                  <span class="ml-2">Zat Besi</span>
+                </label>
+
+                <label class="flex items-center">
+                  <input type="radio" class="form-radio" name="q1" value="c" />
+                  <span class="ml-2">Protein</span>
+                </label>
+              </div>
             </div>
-            <div class="kuis-card__wrapper">
-              <a class="flex flex-col" href="/kuis/kuis-kana.html">
-                <div class="kuis-img">
-                  <img
-                    class="h-32 w-full rounded-lg object-cover"
-                    src="/assets/sel-darah-merah.webp"
-                    alt=""
-                  />
-                </div>
-                <div class="kuis-content m-2">
-                  <h2>KANA (Klasifikasi Anemia)</h2>
-                  <p>
-                    Anemia ada jenisnya? Yuk dicoba kuis tentang klasifikasi
-                    anemia!
-                  </p>
-                </div>
-              </a>
+            <div class="wrapper-quiz-card rounded-lg bg-ceria-cream p-2">
+              <div class="wrapper-question px-2 py-1">
+                <h1>Soal 2</h1>
+                <p>
+                  Konsumsi makanan yang mengandung zat besi dapat membantu
+                  mencegah terjadinya...
+                </p>
+              </div>
+              <div class="wrapper-quiz-answer">
+                <label class="flex items-center">
+                  <input type="radio" class="form-radio" name="q2" value="a" />
+                  <span class="ml-2">Anemia sel sabit</span>
+                </label>
+
+                <label class="flex items-center">
+                  <input type="radio" class="form-radio" name="q2" value="b" />
+                  <span class="ml-2">Anemia aplastik</span>
+                </label>
+
+                <label class="flex items-center">
+                  <input type="radio" class="form-radio" name="q2" value="c" />
+                  <span class="ml-2">Anemia defisiensi besi</span>
+                </label>
+              </div>
             </div>
-            <div class="kuis-card__wrapper">
-              <a class="flex flex-col" href="/kuis/kuis-gena.html">
-                <div class="kuis-img">
-                  <img
-                    class="h-32 w-full rounded-lg object-cover"
-                    src="/assets/wanita-anemia-saat-bangun.webp"
-                    alt=""
-                  />
-                </div>
-                <div class="kuis-content m-2">
-                  <h2>GENA (Gejala Anemia)</h2>
-                  <p>
-                    Apakah kamu bisa mengidentifikasi kondisi ini? Yuk jadi
-                    detektif anemia!
-                  </p>
-                </div>
-              </a>
+            <div class="wrapper-quiz-card rounded-lg bg-ceria-cream p-2">
+              <div class="wrapper-question px-2 py-1">
+                <h1>Soal 3</h1>
+                <p>Contoh makanan kaya zat besi yaitu...</p>
+              </div>
+              <div class="wrapper-quiz-answer">
+                <label class="flex items-center">
+                  <input type="radio" class="form-radio" name="q3" value="a" />
+                  <span class="ml-2">Jeruk, nanas, brokoli</span>
+                </label>
+
+                <label class="flex items-center">
+                  <input type="radio" class="form-radio" name="q3" value="b" />
+                  <span class="ml-2">Daging merah, hati, ayam</span>
+                </label>
+
+                <label class="flex items-center">
+                  <input type="radio" class="form-radio" name="q3" value="c" />
+                  <span class="ml-2">Kue, donat, keju</span>
+                </label>
+              </div>
             </div>
-            <div
-              class="kuis-card__wrapper rounded-lg bg-ceria-cream transition-none"
-            >
-              <a class="flex flex-col">
-                <div
-                  class="kuis-img rounded-lg bg-ceria-text dark:bg-ceria-cream"
-                >
-                  <img
-                    class="h-32 w-full rounded-lg object-cover"
-                    src="/assets/pattern.svg"
-                    alt=""
-                  />
-                </div>
-                <div class="kuis-content m-2">
-                  <h2>Ditunggu Kuis Lainnya</h2>
-                  <p>
-                    Suka dengan kuis ini? Jangan khawatir, "Ceria" akan segera
-                    hadirkan kuis menarik lainnya!
-                  </p>
-                </div>
-              </a>
+            <div class="wrapper-quiz-card rounded-lg bg-ceria-cream p-2">
+              <div class="wrapper-question px-2 py-1">
+                <h1>Soal 4</h1>
+                <p>
+                  Makanan yang harus dihindari penderita anemia yaitu makanan
+                  yang mengandung...
+                </p>
+              </div>
+              <div class="wrapper-quiz-answer">
+                <label class="flex items-center">
+                  <input type="radio" class="form-radio" name="q4" value="a" />
+                  <span class="ml-2">Kafein</span>
+                </label>
+                <label class="flex items-center">
+                  <input type="radio" class="form-radio" name="q4" value="b" />
+                  <span class="ml-2">Vitamin C</span>
+                </label>
+
+                <label class="flex items-center">
+                  <input type="radio" class="form-radio" name="q4" value="c" />
+                  <span class="ml-2">Asam Folat</span>
+                </label>
+              </div>
             </div>
-          </div>
+            <div class="wrapper-quiz-card rounded-lg bg-ceria-cream p-2">
+              <div class="wrapper-question px-2 py-1">
+                <h1>Soal 5</h1>
+                <p>Contoh makanan yang mengandung kafein yaitu...</p>
+              </div>
+              <div class="wrapper-quiz-answer">
+                <label class="flex items-center">
+                  <input type="radio" class="form-radio" name="q5" value="a" />
+                  <span class="ml-2">Kopi, teh</span>
+                </label>
+
+                <label class="flex items-center">
+                  <input type="radio" class="form-radio" name="q5" value="b" />
+                  <span class="ml-2">Teh, kacang hijau</span>
+                </label>
+
+                <label class="flex items-center">
+                  <input type="radio" class="form-radio" name="q5" value="c" />
+                  <span class="ml-2">Ayam, ikan</span>
+                </label>
+              </div>
+            </div>
+            <div class="wrapper my-4 flex flex-row-reverse justify-between">
+              <button
+                class="cursor-pointer rounded-lg border-2 border-ceria-accent bg-ceria-accent px-4 py-2 text-center text-ceria-light shadow-lg"
+                type="submit"
+              >
+                Lihat Hasil
+              </button>
+              <div
+                class="flex flex-col justify-center border-l-2 border-ceria-accent px-4"
+                id="scoreDisplay"
+              ></div>
+            </div>
+          </form>
         </section>
       </div>
     </main>
@@ -303,5 +334,6 @@
       </p>
     </footer>
     <script src="/js/navigation.js"></script>
+    <script src="/js/kuis/kuis-mana.js"></script>
   </body>
 </html>

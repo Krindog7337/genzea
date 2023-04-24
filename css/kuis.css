@@ -2,6 +2,24 @@
   height: 500px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("/assets/f37-01-day.png");
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.hero_peta {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/assets/sampel-darah.webp");
+  background-position: top left;
+}
+.hero_mana {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/assets/makanan-sehat.webp");
+}
+.hero_kana {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/assets/sel-darah-merah.webp");
+}
+.hero_gena {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/assets/wanita-anemia-saat-bangun.webp");
 }
