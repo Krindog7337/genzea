@@ -53,3 +53,7 @@ h2 {
 section {
   @apply my-8;
 }
+
+.web-tool-img img {
+  @apply h-24 w-full md:w-28;
+}
