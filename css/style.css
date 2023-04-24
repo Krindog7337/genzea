@@ -1,11 +1,7 @@
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
-
 .hero {
   height: 500px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/assets/f37-01-day.png");
+    url("/assets/sel-darah-merah.webp");
   background-repeat: no-repeat;
   background-size: cover;
 }
