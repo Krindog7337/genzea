@@ -13,6 +13,7 @@ module.exports = {
         "ceria-accent": "#e6324b",
         "ceria-text": "#2b2b2b",
         "ceria-dark": "#353634",
+        "whatsapp-teal-green": "#128c7e",
       },
       fontFamily: {
         sans: [
