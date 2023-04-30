@@ -2239,6 +2239,11 @@ video {
   font-size: clamp(3.38rem, calc(1.20rem + 12.41vw), 4.50rem);
 }
 
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
