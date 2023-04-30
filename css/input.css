@@ -65,3 +65,7 @@ section {
 .collapsible {
   @apply flex w-full cursor-pointer justify-between rounded-lg bg-ceria-cream p-6 font-semibold hover:bg-ceria-accent hover:text-ceria-light dark:bg-ceria-text;
 }
+
+.article-link {
+  @apply flex justify-between gap-2 rounded-lg bg-ceria-cream px-4 py-2 transition-all hover:bg-ceria-accent hover:text-ceria-light dark:bg-ceria-text;
+}
