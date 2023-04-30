@@ -61,3 +61,7 @@ section {
 .web-tool-img img {
   @apply h-24 w-full md:w-28;
 }
+
+.collapsible {
+  @apply flex w-full cursor-pointer justify-between rounded-lg bg-ceria-cream p-6 font-semibold hover:bg-ceria-accent hover:text-ceria-light dark:bg-ceria-text;
+}

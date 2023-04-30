@@ -6,6 +6,7 @@ module.exports = {
     extend: {
       fontSize: {
         step0: ["clamp(1.00rem, calc(0.96rem + 0.22vw), 1.13rem)"],
+        stephero: ["clamp(3.38rem, calc(1.20rem + 12.41vw), 4.50rem)"],
       },
       colors: {
         "ceria-light": "#f2e3c6",

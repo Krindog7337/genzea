@@ -729,12 +729,21 @@ video {
   margin-bottom: 2rem;
 }
 
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 .mb-2 {
   margin-bottom: 0.5rem;
 }
 
 .ml-2 {
   margin-left: 0.5rem;
+}
+
+.ml-8 {
+  margin-left: 2rem;
 }
 
 .mt-2 {
@@ -856,6 +865,10 @@ video {
   height: 0.25rem;
 }
 
+.h-20 {
+  height: 5rem;
+}
+
 .h-32 {
   height: 8rem;
 }
@@ -868,8 +881,16 @@ video {
   height: 100%;
 }
 
+.max-h-0 {
+  max-height: 0px;
+}
+
 .w-1 {
   width: 0.25rem;
+}
+
+.w-1\/2 {
+  width: 50%;
 }
 
 .w-80 {
@@ -922,6 +943,11 @@ video {
 
 .border-separate {
   border-collapse: separate;
+}
+
+.rotate-90 {
+  --tw-rotate: 90deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .\!transform {
@@ -1091,6 +1117,10 @@ video {
   list-style-position: outside;
 }
 
+.list-disc {
+  list-style-type: disc;
+}
+
 .appearance-none {
   -webkit-appearance: none;
      -moz-appearance: none;
@@ -1214,6 +1244,10 @@ video {
 
 .grid-flow-col-dense {
   grid-auto-flow: column dense;
+}
+
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
 .flex-row {
@@ -1728,9 +1762,19 @@ video {
   border-radius: 0.5rem;
 }
 
+.\!rounded-b-none {
+  border-bottom-right-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+}
+
 .rounded-b {
   border-bottom-right-radius: 0.25rem;
   border-bottom-left-radius: 0.25rem;
+}
+
+.rounded-b-lg {
+  border-bottom-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
 }
 
 .rounded-e {
@@ -1836,6 +1880,10 @@ video {
   border-top-width: 1px;
 }
 
+.border-t-4 {
+  border-top-width: 4px;
+}
+
 .border-solid {
   border-style: solid;
 }
@@ -1878,6 +1926,11 @@ video {
 .border-whatsapp-teal-green {
   --tw-border-opacity: 1;
   border-color: rgb(18 140 126 / var(--tw-border-opacity));
+}
+
+.\!bg-ceria-accent {
+  --tw-bg-opacity: 1 !important;
+  background-color: rgb(230 50 75 / var(--tw-bg-opacity)) !important;
 }
 
 .bg-\[rgb\(255\2c 0\2c 0\)\] {
@@ -2003,6 +2056,10 @@ video {
 
 .bg-origin-content {
   background-origin: content-box;
+}
+
+.\!fill-ceria-light {
+  fill: #f2e3c6 !important;
 }
 
 .fill-ceria-text {
@@ -2152,6 +2209,11 @@ video {
   line-height: 2.5rem;
 }
 
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
 .text-7xl {
   font-size: 4.5rem;
   line-height: 1;
@@ -2160,6 +2222,10 @@ video {
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
+}
+
+.text-stephero {
+  font-size: clamp(3.38rem, calc(1.20rem + 12.41vw), 4.50rem);
 }
 
 .font-bold {
@@ -2236,6 +2302,11 @@ video {
 .stacked-fractions {
   --tw-numeric-fraction: stacked-fractions;
   font-variant-numeric: var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction);
+}
+
+.\!text-ceria-light {
+  --tw-text-opacity: 1 !important;
+  color: rgb(242 227 198 / var(--tw-text-opacity)) !important;
 }
 
 .text-\[\#336699\]\/\[\.35\] {
@@ -2588,6 +2659,12 @@ video {
   transition-property: none;
 }
 
+.transition-transform {
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
 .ease-in {
   transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
 }
@@ -2807,6 +2884,32 @@ section {
   }
 }
 
+.collapsible {
+  display: flex;
+  width: 100%;
+  cursor: pointer;
+  justify-content: space-between;
+  border-radius: 0.5rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 198 165 / var(--tw-bg-opacity));
+  padding: 1.5rem;
+  font-weight: 600;
+}
+
+.collapsible:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(230 50 75 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(242 227 198 / var(--tw-text-opacity));
+}
+
+@media (prefers-color-scheme: dark) {
+  .collapsible {
+    --tw-bg-opacity: 1;
+    background-color: rgb(43 43 43 / var(--tw-bg-opacity));
+  }
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
@@ -2886,6 +2989,10 @@ section {
   text-align: center;
 }
 
+.group:hover .group-hover\:fill-ceria-light {
+  fill: #f2e3c6;
+}
+
 @media (prefers-color-scheme: dark) {
   .dark\:bg-ceria-cream {
     --tw-bg-opacity: 1;
@@ -2903,6 +3010,11 @@ section {
 }
 
 @media (min-width: 640px) {
+  .sm\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
   .sm\:underline {
     text-decoration-line: underline;
   }
@@ -2974,6 +3086,11 @@ section {
 
   .md\:text-left {
     text-align: left;
+  }
+
+  .md\:text-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
   }
 
   .md\:transition-all {
