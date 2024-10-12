@@ -41,6 +41,7 @@ include $footer ?>
 
   <!-- preline script -->
   <script src="node_modules/preline/dist/preline.js"></script>
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 
   <!-- Chatbot --><?php
    if ($current_page != 'ai')

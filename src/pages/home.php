@@ -64,6 +64,27 @@
               <path d="m9 18 6-6-6-6" />
             </svg>
 </a>
+<a
+id="aiButton"
+href="index.php?p=article"
+class="inline-flex items-center gap-x-2 rounded-lg border border-secondary  px-4 py-3 text-sm font-bold text-text hover:bg-secondary/70 focus:bg-accent focus:outline-none disabled:pointer-events-none disabled:opacity-50"
+>
+Baca Artikel
+<svg
+  class="size-4 shrink-0"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="m9 18 6-6-6-6" />
+</svg>
+</a>
           <!-- <a class="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent text-gray-800 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none"
             href="#">
             <svg class="shrink-0 size-4" width="19" height="18" viewBox="0 0 19 18" fill="none"
@@ -518,13 +539,14 @@
           <!-- Tab Content -->
           <div>
             <div
+            class=""
               id="tabs-with-card-1"
               role="tabpanel"
               aria-labelledby="tabs-with-card-item-1"
             >
               <img
                 class="rounded-xl shadow-xl shadow-black/40"
-                src="https://img.freepik.com/free-photo/ai-chip-intelligence-technology-deep-learning_53876-143122.jpg?t=st=1729588341~exp=1729591941~hmac=637711d0b1b4c2dd56a1f38b06ce312700f3f49f889d31a58fec205798d0d594&w=826"
+                src="/assets/hand-ai.webp"
                 alt="Features Image"
               />
             </div>
@@ -537,7 +559,7 @@
             >
               <img
                 class="rounded-xl shadow-xl shadow-gray-200"
-                src="https://images.unsplash.com/photo-1665686306574-1ace09918530?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&h=720&q=80"
+                src="/assets/boy-reading.webp"
                 alt="Features Image"
               />
             </div>
@@ -550,7 +572,7 @@
             >
               <img
                 class="rounded-xl shadow-xl shadow-gray-200"
-                src="https://images.unsplash.com/photo-1598929213452-52d72f63e307?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&h=720&q=80"
+                src="/assets/girl-working.webp"
                 alt="Features Image"
               />
             </div>
@@ -609,206 +631,69 @@
 
 <!-- Card Blog -->
 <div class="mx-auto max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14">
+  <h2 class="font-heading text-3xl lg:text-4xl text-text/90 mb-4">Artikel Terbaru</h2>
   <!-- Grid -->
   <div class="grid gap-10 lg:grid-cols-2 lg:gap-y-16">
-    <!-- Card -->
-    <a
-      class="group block overflow-hidden rounded-xl focus:outline-none"
-      href="#"
-    >
-      <div class="flex flex-col gap-3 sm:flex-row sm:items-center sm:gap-5">
-        <div
-          class="relative h-44 w-full shrink-0 overflow-hidden rounded-xl sm:w-56"
-        >
-          <img
-            class="absolute start-0 top-0 size-full rounded-xl object-cover transition-transform duration-500 ease-in-out group-hover:scale-105 group-focus:scale-105"
-            src="https://images.unsplash.com/photo-1540575861501-7cf05a4b125a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=320&q=80"
-            alt="Blog Image"
-          />
-        </div>
-
-        <div class="grow">
-          <h3
-            class="text-xl font-semibold text-text/90 group-hover:text-gray-600"
-          >
-            Studio by Preline
-          </h3>
-          <p class="mt-3 text-gray-600">
-            Produce professional, reliable streams easily leveraging Preline's
-            innovative broadcast studio
-          </p>
-          <p
-            class="mt-4 inline-flex items-center gap-x-1 text-sm font-medium text-blue-600 decoration-2 group-hover:underline group-focus:underline"
-          >
-            Read more
-            <svg
-              class="size-4 shrink-0"
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <path d="m9 18 6-6-6-6" />
-            </svg>
-          </p>
-        </div>
+    <a class="group block rounded-xl overflow-hidden focus:outline-none"
+    href="https://www.halodoc.com/artikel/anemia-megaloblastik-memicu-terjadinya-kanker-lambung" target="_blank">
+    <div class="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-5">
+      <div class="shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44">
+        <img
+          class="group-hover:scale-105 group-focus:scale-105 transition-transform duration-500 ease-in-out size-full absolute top-0 start-0 object-cover rounded-xl"
+          src="https://d1bpj0tv6vfxyp.cloudfront.net/articles/69ab1301-592d-4600-b99a-d54bc0ee286b_article_image_url.webp"
+          alt="Blog Image">
       </div>
-    </a>
-    <!-- End Card -->
 
-    <!-- Card -->
-    <a
-      class="group block overflow-hidden rounded-xl focus:outline-none"
-      href="#"
-    >
-      <div class="flex flex-col gap-3 sm:flex-row sm:items-center sm:gap-5">
-        <div
-          class="relative h-44 w-full shrink-0 overflow-hidden rounded-xl sm:w-56"
-        >
-          <img
-            class="absolute start-0 top-0 size-full rounded-xl object-cover transition-transform duration-500 ease-in-out group-hover:scale-105 group-focus:scale-105"
-            src="https://images.unsplash.com/photo-1668906093328-99601a1aa584?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=320&q=80"
-            alt="Blog Image"
-          />
-        </div>
-
-        <div class="grow">
-          <h3
-            class="text-xl font-semibold text-text/90 group-hover:text-gray-600"
-          >
-            Onsite
-          </h3>
-          <p class="mt-3 text-gray-600">
-            Optimize your in-person experience with best-in-class capabilities
-            like badge printing and lead retrieval
-          </p>
-          <p
-            class="mt-4 inline-flex items-center gap-x-1 text-sm font-medium text-blue-600 decoration-2 group-hover:underline group-focus:underline"
-          >
-            Read more
-            <svg
-              class="size-4 shrink-0"
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <path d="m9 18 6-6-6-6" />
-            </svg>
-          </p>
-        </div>
+      <div class="grow">
+        <h3 class="text-xl font-semibold text-text/90 group-hover:text-text/70 dark:text-text/90">
+          Anemia Megaloblastik Memicu Terjadinya Kanker Lambung
+        </h3>
+        <p class="mt-3 text-text/70 dark:text-text/90">
+          "Anemia memiliki banyak jenisnya, salah satunya adalah anemia megaloblastik. Anemia jenis ini dik...
+        </p>
+        <p
+          class="mt-4 inline-flex items-center gap-x-1 text-sm text-accent decoration-2 group-hover:underline group-focus:underline font-medium">
+          Baca Selengkapnya
+          <svg class="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="m9 18 6-6-6-6" />
+          </svg>
+        </p>
       </div>
-    </a>
-    <!-- End Card -->
+    </div>
+  </a>
+  <!-- End Card -->
 
-    <!-- Card -->
-    <a
-      class="group block overflow-hidden rounded-xl focus:outline-none"
-      href="#"
-    >
-      <div class="flex flex-col gap-3 sm:flex-row sm:items-center sm:gap-5">
-        <div
-          class="relative h-44 w-full shrink-0 overflow-hidden rounded-xl sm:w-56"
-        >
-          <img
-            class="absolute start-0 top-0 size-full rounded-xl object-cover transition-transform duration-500 ease-in-out group-hover:scale-105 group-focus:scale-105"
-            src="https://images.unsplash.com/photo-1567016526105-22da7c13161a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=320&q=80"
-            alt="Blog Image"
-          />
-        </div>
-
-        <div class="grow">
-          <h3
-            class="text-xl font-semibold text-text/90 group-hover:text-gray-600"
-          >
-            The complete guide to OKRs
-          </h3>
-          <p class="mt-3 text-gray-600">
-            How to make objectives and key results work for your company
-          </p>
-          <p
-            class="mt-4 inline-flex items-center gap-x-1 text-sm font-medium text-blue-600 decoration-2 group-hover:underline group-focus:underline"
-          >
-            Read more
-            <svg
-              class="size-4 shrink-0"
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <path d="m9 18 6-6-6-6" />
-            </svg>
-          </p>
-        </div>
+  <!-- Card -->
+  <a class="group block rounded-xl overflow-hidden focus:outline-none"
+    href="https://www.halodoc.com/artikel/anemia-bisa-jadi-tanda-awal-kanker-usus-besar-ini-faktanya" target="_blank">
+    <div class="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-5">
+      <div class="shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44">
+        <img
+          class="group-hover:scale-105 group-focus:scale-105 transition-transform duration-500 ease-in-out size-full absolute top-0 start-0 object-cover rounded-xl"
+          src="https://d1bpj0tv6vfxyp.cloudfront.net/articles/167818_17-2-2021_16-49-38.webp"
+          alt="Blog Image">
       </div>
-    </a>
-    <!-- End Card -->
 
-    <!-- Card -->
-    <a
-      class="group block overflow-hidden rounded-xl focus:outline-none"
-      href="#"
-    >
-      <div class="flex flex-col gap-3 sm:flex-row sm:items-center sm:gap-5">
-        <div
-          class="relative h-44 w-full shrink-0 overflow-hidden rounded-xl sm:w-56"
-        >
-          <img
-            class="absolute start-0 top-0 size-full rounded-xl object-cover transition-transform duration-500 ease-in-out group-hover:scale-105 group-focus:scale-105"
-            src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=320&q=80"
-            alt="Blog Image"
-          />
-        </div>
-
-        <div class="grow">
-          <h3
-            class="text-xl font-semibold text-text/90 group-hover:text-gray-600"
-          >
-            People program models
-          </h3>
-          <p class="mt-3 text-gray-600">
-            Six approaches to bringing your People strategy to life
-          </p>
-          <p
-            class="mt-4 inline-flex items-center gap-x-1 text-sm font-medium text-blue-600 decoration-2 group-hover:underline group-focus:underline"
-          >
-            Read more
-            <svg
-              class="size-4 shrink-0"
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <path d="m9 18 6-6-6-6" />
-            </svg>
-          </p>
-        </div>
+      <div class="grow">
+        <h3 class="text-xl font-semibold text-text/90 group-hover:text-text/70 dark:text-text/90">
+          Anemia Bisa Jadi Tanda Awal Kanker Usus Besar, Ini Faktanya
+        </h3>
+        <p class="mt-3 text-text/70 dark:text-text/90">
+          Kanker usus besar bisa menimbulkan gejala anemia, kondisi ini ditunjukan...
+        </p>
+        <p
+          class="mt-4 inline-flex items-center gap-x-1 text-sm text-accent decoration-2 group-hover:underline group-focus:underline font-medium">
+          Baca Selengkapnya
+          <svg class="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="m9 18 6-6-6-6" />
+          </svg>
+        </p>
       </div>
-    </a>
-    <!-- End Card -->
-  </div>
+    </div>
+  </a>
+
   <!-- End Grid -->
 </div>
 <!-- End Card Blog -->
@@ -821,7 +706,7 @@
       Jelajah Genzea
     </h2>
     <p class="mt-3 text-gray-500 dark:text-neutral-400">
-      Our code is available for you to download, inspect, and modify:
+      Tunggu apa lagi? Ayo coba sekarang
     </p>
   </div>
 

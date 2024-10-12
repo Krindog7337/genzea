@@ -63,79 +63,52 @@
           <div class="py-2 md:py-0 flex flex-col md:flex-row md:items-center md:justify-end gap-0.5 md:gap-1">
             <a class="p-2 flex items-center <?php echo ($page == '' || $page == 'home') ? 'text-primary' : 'text-text/80 dark:text-text/90'; ?> focus:outline-none focus:text-blue-600"
               href="index.php?p=" aria-current="page">
-              <svg class="shrink-0 size-4 me-3 md:me-2 block md:hidden" xmlns="http://www.w3.org/2000/svg" width="24"
-                height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                stroke-linecap="round" stroke-linejoin="round">
-                <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8" />
-                <path
-                  d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
-              </svg>
+              <box-icon class="size-4 me-3 block md:hidden fill-text/90" name='home-alt' size="sm" ></box-icon>
               Beranda
             </a>
+            <a class="p-2 flex items-center <?php echo ($page == 'ai' || $page == 'home') ? 'text-primary' : 'text-text/80 dark:text-text/90'; ?> focus:outline-none focus:text-blue-600"
+              href="index.php?p=ai">
+              <box-icon class="size-4 me-3 block md:hidden fill-text/90" name='bot' size="sm" ></box-icon>
+              AI
+            </a>
+            
+            
 
             <a class="p-2 flex items-center <?php echo ($page == 'article' || $page == 'article') ? 'text-primary' : 'text-text/80 dark:text-text/90'; ?> hover:text-secondary focus:outline-none focus:text-gray-500"
               href="index.php?p=article">
-              <svg class="shrink-0 size-4 me-3 md:me-2 block md:hidden" xmlns="http://www.w3.org/2000/svg" width="24"
-                height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                stroke-linecap="round" stroke-linejoin="round">
-                <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" />
-                <circle cx="12" cy="7" r="4" />
-              </svg>
+              <box-icon name='news' class="size-4 me-3 block md:hidden fill-text/90" ></box-icon>
               Artikel
             </a>
 
             <a class="p-2 flex items-center  <?php echo ($page == 'video' || $page == 'video') ? 'text-primary' : 'text-text/80 dark:text-text/90'; ?> hover:text-secondary focus:outline-none focus:text-gray-500"
               href="index.php?p=video">
-              <svg class="shrink-0 size-4 me-3 md:me-2 block md:hidden" xmlns="http://www.w3.org/2000/svg" width="24"
-                height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                stroke-linecap="round" stroke-linejoin="round">
-                <path d="M12 12h.01" />
-                <path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
-                <path d="M22 13a18.15 18.15 0 0 1-20 0" />
-                <rect width="20" height="14" x="2" y="6" rx="2" />
-              </svg>
+              <box-icon name='video' class="size-4 me-3 block md:hidden fill-text/90"></box-icon>
               Video
             </a>
 
             <a class="p-2 flex items-center  <?php echo ($page == 'quiz' || $page == 'quiz') ? 'text-primary' : 'text-text/80 dark:text-text/90'; ?> hover:text-secondary focus:outline-none focus:text-gray-500"
               href="index.php?p=quiz">
-              <svg class="shrink-0 size-4 me-3 md:me-2 block md:hidden" xmlns="http://www.w3.org/2000/svg" width="24"
-                height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                stroke-linecap="round" stroke-linejoin="round">
-                <path
-                  d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2" />
-                <path d="M18 14h-8" />
-                <path d="M15 18h-5" />
-                <path d="M10 6h8v4h-8V6Z" />
-              </svg>
+              <box-icon name='notepad' class="size-4 me-3 block md:hidden fill-text/90"></box-icon>
               Kuis
             </a>
 
             <a class="p-2 flex items-center  <?php echo ($page == 'about' || $page == 'about') ? 'text-primary' : 'text-text/80 dark:text-text/90'; ?> hover:text-secondary focus:outline-none focus:text-gray-500"
               href="index.php?p=about">
-              <svg class="shrink-0 size-4 me-3 md:me-2 block md:hidden" xmlns="http://www.w3.org/2000/svg" width="24"
-                height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                stroke-linecap="round" stroke-linejoin="round">
-                <path
-                  d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2" />
-                <path d="M18 14h-8" />
-                <path d="M15 18h-5" />
-                <path d="M10 6h8v4h-8V6Z" />
-              </svg>
+              <box-icon name='user' class="size-4 me-3 block md:hidden fill-text/90"></box-icon>
               Tentang
             </a>
 
             <!-- divider -->
             <div
-              class="relative flex flex-wrap items-center gap-x-1.5 md:ps-2.5  md:ms-1.5 before:block before:absolute before:top-1/2 before:-start-px before:w-px before:h-4 before:bg-gray-300 before:-translate-y-1/2">
+              class="relative m-0 p-0 flex flex-wrap items-center gap-x-1.5 md:ps-2.5  md:ms-1.5 before:block before:absolute before:top-1/2 before:-start-px before:w-px before:h-4 before:bg-gray-300 before:-translate-y-1/2">
 
               <!-- Theme Switcher -->
-              <div class="m-2 md:my-0">
+              <div class="m-2 md:my-0 overflow-hidden">
 
                 <button type="button"
                   class="hs-dark-mode-active:hidden flex my-auto hs-dark-mode font-medium text-text/80 rounded-full hover:text-indigo-800 md:hover:rotate-12 md:transition-all focus:outline-none focus:bg-gray-200"
                   data-hs-theme-click-value="dark">
-                  <span class="group inline-flex shrink-0 justify-center items-center size-9">
+                  <span class="group inline-flex shrink-0 my-auto justify-center items-center size-4">
                     <svg class="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                       viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                       stroke-linejoin="round">
@@ -147,7 +120,7 @@
                 <button type="button"
                   class=" hs-dark-mode-active:flex my-auto overflow-hidden hidden hs-dark-mode font-medium text-text/90 md:transition-transform  md:hover:rotate-45 rounded-full hover:text-yellow-300 focus:outline-none focus:bg-gray-200"
                   data-hs-theme-click-value="light">
-                  <span class="group inline-flex shrink-0 justify-center items-center size-9">
+                  <span class="group inline-flex shrink-0 justify-center items-center size-4 my-auto">
                     <svg class="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                       viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                       stroke-linejoin="round">

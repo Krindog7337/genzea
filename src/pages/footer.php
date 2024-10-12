@@ -1,4 +1,5 @@
 <footer class="mt-auto w-full max-w-[85rem] py-10 px-4 sm:px-6 lg:px-8 mx-auto">
+  <hr class="border-text/10 mb-4">
     <!-- Grid -->
     <div class="text-center">
       <div>

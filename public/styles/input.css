@@ -7,18 +7,19 @@
   :root {
     --text: 20 20 20;
     --background: 235 235 235;
-    --primary: 199 37 62;
+    --primary: 198 36 61;
     --secondary: 237 84 89;
-    --accent: 85 201 209;
+    --accent: 87 201 209;
   }
   .dark {
     --text: 235 235 235;
     --background: 20 20 20;
-    --primary: 238 88 116;
+    --primary: 219 57 81;
     --secondary: 171 18 23;
-    --accent: 0 221 255;
+    --accent: 46 160 168;
   }
 }
+
 
 
 h1, h2, h3, h4, h5, h6 {
