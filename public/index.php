@@ -20,7 +20,7 @@ $page = isset($_GET['p']) ? $_GET['p'] : '';
 <body class="bg-background font-body box-border">
   <!-- ========== HEADER ========== -->
   <header
-    class="sticky top-4 inset-x-0 before:absolute before:inset-0 before:max-w-[66rem] before:mx-2 before:lg:mx-auto before:rounded-[26px] before:border before:border-gray-200 after:absolute after:inset-0 after:-z-[1] after:max-w-[66rem] after:mx-2 after:lg:mx-auto after:rounded-[26px] after:bg-background/80 flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full after:backdrop-blur-lg">
+    class="sticky top-4 inset-x-0 before:absolute before:inset-0 before:max-w-[66rem] before:mx-2 before:lg:mx-auto before:rounded-[26px] before:border before:border-secondary after:absolute after:inset-0 after:-z-[1] after:max-w-[66rem] after:mx-2 after:lg:mx-auto after:rounded-[26px] after:bg-accent/20 flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full after:backdrop-blur-sm">
     <nav
       class="relative max-w-[66rem] w-full md:flex md:items-center md:justify-between md:gap-3 ps-5 pe-2 mx-2 lg:mx-auto py-2 rounded-full">
       <!-- Logo w/ Collapse Button -->
@@ -166,7 +166,7 @@ $page = isset($_GET['p']) ? $_GET['p'] : '';
                   <span class="ml-3 md:hidden">Tema</span>
                 </button>
                 <button type="button"
-                  class=" hs-dark-mode-active:flex my-auto hidden hs-dark-mode font-medium text-text/90 md:transition-transform  md:hover:rotate-45 rounded-full hover:text-yellow-300 focus:outline-none focus:bg-gray-200"
+                  class=" hs-dark-mode-active:flex my-auto overflow-hidden hidden hs-dark-mode font-medium text-text/90 md:transition-transform  md:hover:rotate-45 rounded-full hover:text-yellow-300 focus:outline-none focus:bg-gray-200"
                   data-hs-theme-click-value="light">
                   <span class="group inline-flex shrink-0 justify-center items-center size-9">
                     <svg class="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
