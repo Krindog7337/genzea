@@ -1,0 +1,25 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import url('https://fonts.googleapis.com/css?family=Gabarito:700|Plus%20Jakarta%20Sans:400');
+
+@layer base {
+  :root {
+    --text: 19 12 12;
+    --background: 254 251 251;
+    --primary: 237 85 90;
+    --secondary: 228 155 155;
+    --accent: 92 158 240;
+  }
+  .dark {
+    --text: 243 236 236;
+    --background: 17 20 28;
+    --primary: 253 145 145;
+    --secondary: 130 44 78;
+    --accent: 15 82 163;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Gabarito;
+}
