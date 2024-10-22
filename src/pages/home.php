@@ -43,8 +43,9 @@
 
         <!-- Buttons -->
         <div class="mt-8 flex justify-center gap-3">
-          <button
+          <a
             id="aiButton"
+            href="index.php?p=ai"
             class="inline-flex items-center gap-x-2 rounded-lg border border-transparent bg-primary px-4 py-3 text-sm font-bold text-background hover:bg-secondary focus:bg-accent focus:outline-none disabled:pointer-events-none disabled:opacity-50"
           >
             Tanya AI
@@ -62,7 +63,7 @@
             >
               <path d="m9 18 6-6-6-6" />
             </svg>
-          </button>
+</a>
           <!-- <a class="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent text-gray-800 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none"
             href="#">
             <svg class="shrink-0 size-4" width="19" height="18" viewBox="0 0 19 18" fill="none"
@@ -828,7 +829,7 @@
   <div class="flex w-full justify-center gap-3 sm:inline-flex">
     <a
       class="inline-flex items-center justify-center gap-x-2 rounded-lg border border-transparent bg-primary px-4 py-3 text-sm font-medium text-background hover:bg-secondary focus:bg-accent focus:outline-none disabled:pointer-events-none disabled:opacity-50"
-      href="./docs/index.html"
+      href="index.php?p=ai"
     >
       Tanya AI
     </a>
