@@ -383,7 +383,7 @@
     >
       <div class="mb-10 lg:order-2 lg:col-span-6 lg:col-start-8 lg:mb-0">
         <h2 class="font-heading text-2xl text-text/80 sm:text-3xl">
-          Fully customizable rules to match your unique needs
+          Fitur Unggulan Genzea
         </h2>
 
         <!-- Tab Navs -->
@@ -835,41 +835,5 @@
   </div>
   <!-- End Buttons -->
 
-  <div class="mt-5 flex items-center justify-center gap-x-1 sm:gap-x-3">
-    <span class="text-sm text-gray-600 dark:text-neutral-400"
-      >Package Manager:</span
-    >
-    <span class="text-sm font-bold text-gray-900 dark:text-white">npm</span>
-    <svg
-      class="size-5 text-gray-300 dark:text-neutral-600"
-      width="16"
-      height="16"
-      viewBox="0 0 16 16"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      aria-hidden="true"
-    >
-      <path d="M6 13L10 3" stroke="currentColor" stroke-linecap="round"></path>
-    </svg>
-    <a
-      class="inline-flex items-center gap-x-1 text-sm font-medium text-blue-600 decoration-2 hover:underline focus:underline focus:outline-none dark:text-blue-500"
-      href="./docs/index.html"
-    >
-      Installation Guide
-      <svg
-        class="size-4 shrink-0"
-        xmlns="http://www.w3.org/2000/svg"
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-      >
-        <path d="m9 18 6-6-6-6"></path>
-      </svg>
-    </a>
-  </div>
+  
 </div>
