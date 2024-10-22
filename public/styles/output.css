@@ -557,19 +557,19 @@ video {
 }
 
 :root {
-  --text: 19 12 12;
-  --background: 254 251 251;
-  --primary: 237 85 90;
-  --secondary: 228 155 155;
-  --accent: 92 158 240;
+  --text: 20 20 20;
+  --background: 235 235 235;
+  --primary: 167 17 44;
+  --secondary: 237 84 89;
+  --accent: 85 201 209;
 }
 
 .dark {
-  --text: 243 236 236;
-  --background: 17 20 28;
-  --primary: 253 145 145;
-  --secondary: 130 44 78;
-  --accent: 15 82 163;
+  --text: 235 235 235;
+  --background: 20 20 20;
+  --primary: 238 88 116;
+  --secondary: 171 18 23;
+  --accent: 0 221 255;
 }
 
 .container{
@@ -685,6 +685,10 @@ video {
 
 .top-full{
   top: 100%;
+}
+
+.-start-1\/2{
+  inset-inline-start: -50%;
 }
 
 .-z-50{
@@ -1053,6 +1057,11 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.translate-x-1\/2{
+  --tw-translate-x: 50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .-rotate-12{
   --tw-rotate: -12deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -1402,6 +1411,10 @@ video {
 
 .to-pink-50{
   --tw-gradient-to: #fdf2f8 var(--tw-gradient-to-position);
+}
+
+.to-accent{
+  --tw-gradient-to: rgb(var(--accent)) var(--tw-gradient-to-position);
 }
 
 .bg-clip-text{
@@ -2118,6 +2131,14 @@ h1, h2, h3, h4, h5, h6 {
   background-color: rgb(var(--background));
 }
 
+[data-hs-tab].active.hs-tab-active\:bg-accent{
+  background-color: rgb(var(--accent));
+}
+
+[data-hs-tab].active.hs-tab-active\:fill-accent{
+  fill: rgb(var(--accent));
+}
+
 [data-hs-tab].active.hs-tab-active\:text-accent{
   color: rgb(var(--accent));
 }
@@ -2139,6 +2160,14 @@ h1, h2, h3, h4, h5, h6 {
 
 [data-hs-tab].active .hs-tab-active\:bg-background{
   background-color: rgb(var(--background));
+}
+
+[data-hs-tab].active .hs-tab-active\:bg-accent{
+  background-color: rgb(var(--accent));
+}
+
+[data-hs-tab].active .hs-tab-active\:fill-accent{
+  fill: rgb(var(--accent));
 }
 
 [data-hs-tab].active .hs-tab-active\:text-accent{
