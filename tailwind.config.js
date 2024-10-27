@@ -3,6 +3,7 @@ module.exports = {
   content: [
     './public/index.php',
     './src/*/**.php',
+    './src/pages/*/**.php',
 
     './node_modules/preline/dist/*.js',
   ],

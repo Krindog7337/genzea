@@ -545,7 +545,7 @@ Baca Artikel
               aria-labelledby="tabs-with-card-item-1"
             >
               <img
-                class="rounded-xl shadow-xl shadow-black/40"
+                class="rounded-xl shadow-xl shadow-black/20"
                 src="/assets/hand-ai.webp"
                 alt="Features Image"
               />
@@ -558,7 +558,7 @@ Baca Artikel
               aria-labelledby="tabs-with-card-item-2"
             >
               <img
-                class="rounded-xl shadow-xl shadow-gray-200"
+                class="rounded-xl shadow-xl shadow-black/20"
                 src="/assets/boy-reading.webp"
                 alt="Features Image"
               />
@@ -571,7 +571,7 @@ Baca Artikel
               aria-labelledby="tabs-with-card-item-3"
             >
               <img
-                class="rounded-xl shadow-xl shadow-gray-200"
+                class="rounded-xl shadow-xl shadow-black/20"
                 src="/assets/girl-working.webp"
                 alt="Features Image"
               />
@@ -584,7 +584,7 @@ Baca Artikel
             class="absolute end-0 top-0 hidden translate-x-20 md:block lg:translate-x-20"
           >
             <svg
-              class="h-auto w-16 text-orange-500"
+              class="h-auto w-16 text-accent"
               width="121"
               height="135"
               viewBox="0 0 121 135"
