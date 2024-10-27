@@ -4,12 +4,12 @@
   <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
     <!-- card -->
     <div class="flex flex-col bg-secondary/20 shadow-md rounded-xl">
-      <img class="w-full h-auto rounded-t-xl"
-        src="https://images.unsplash.com/photo-1680868543815-b8666dba60f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=320&q=80"
+      <img class="w-full h-auto rounded-t-xl aspect-[3/2] object-cover"
+        src="/assets/sel-darah-merah.webp"
         alt="Card Image">
       <div class="p-4 md:p-5">
         <h3 class="text-xl font-bold text-text/90">
-          Kuis Gena
+          Kuis 1
         </h3>
         <p class="mt-1 text-text/60">
           Apakah kamu bisa mengidentifikasi kondisi ini? Yuk jadi detektif anemia!
@@ -24,11 +24,10 @@
      <!-- card -->
     <div class="flex flex-col bg-secondary/20 shadow-md rounded-xl">
       <img class="w-full h-auto rounded-t-xl"
-        src="https://images.unsplash.com/photo-1680868543815-b8666dba60f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=320&q=80"
-        alt="Card Image">
+        src="/assets/sampel-darah.webp" alt="Card Image">
       <div class="p-4 md:p-5">
         <h3 class="text-xl font-bold text-text/90">
-          Kuis Gena
+          Kuis 2
         </h3>
         <p class="mt-1 text-text/60">
           Apakah kamu bisa mengidentifikasi kondisi ini? Yuk jadi detektif anemia!
@@ -43,11 +42,10 @@
      <!-- card -->
     <div class="flex flex-col bg-secondary/20 shadow-md rounded-xl">
       <img class="w-full h-auto rounded-t-xl"
-        src="https://images.unsplash.com/photo-1680868543815-b8666dba60f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=320&q=80"
-        alt="Card Image">
+        src="/assets/makanan-sehat.webp"   alt="Card Image">
       <div class="p-4 md:p-5">
         <h3 class="text-xl font-bold text-text/90">
-          Kuis Gena
+          Kuis 3
         </h3>
         <p class="mt-1 text-text/60">
           Apakah kamu bisa mengidentifikasi kondisi ini? Yuk jadi detektif anemia!
@@ -62,11 +60,10 @@
      <!-- card -->
     <div class="flex flex-col bg-secondary/20 shadow-md rounded-xl">
       <img class="w-full h-auto rounded-t-xl"
-        src="https://images.unsplash.com/photo-1680868543815-b8666dba60f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=320&q=80"
-        alt="Card Image">
+      src="/assets/wanita-anemia.webp"  alt="Card Image">
       <div class="p-4 md:p-5">
         <h3 class="text-xl font-bold text-text/90">
-          Kuis Gena
+          Kuis 4
         </h3>
         <p class="mt-1 text-text/60">
           Apakah kamu bisa mengidentifikasi kondisi ini? Yuk jadi detektif anemia!
