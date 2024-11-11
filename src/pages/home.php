@@ -15,7 +15,7 @@
     <div class="mx-auto max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-16">
       <div class="mx-auto max-w-2xl text-center">
         <p
-          class="inline-block bg-gradient-to-l from-primary to-accent bg-clip-text text-sm font-medium text-transparent"
+          class="inline-block bg-gradient-to-l from-primary to-accent bg-clip-text text-sm font-medium text-transparent text-xl"
         >
           Genzea: Now with AI
         </p>
