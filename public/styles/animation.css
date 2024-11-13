@@ -1,0 +1,11 @@
+.fly-up {
+  position: relative;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity .7s 0.5s, transform .7s 0.5s;
+}
+
+.fly-up.animate {
+  opacity: 1;
+  transform: translateY(0);
+}

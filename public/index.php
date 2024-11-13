@@ -15,6 +15,7 @@ $page = isset($_GET['p']) ? $_GET['p'] : '';
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles/output.css">
+  <link rel="stylesheet" href="styles/animation.css">
   <title>Genzea</title>
 </head>
 
@@ -55,6 +56,20 @@ include $footer ?>
       
     ';
    ?>
+
+  <script>const flyUpElements = document.querySelectorAll('.fly-up');
+
+    function flyUpHandler() {
+      flyUpElements.forEach(el => {
+        const rect = el.getBoundingClientRect();
+        const isVisible = rect.top < window.innerHeight && rect.bottom >= 0;
+        if (isVisible) {
+          el.classList.add('animate');
+        }
+      });
+    }
+
+    window.addEventListener('scroll', flyUpHandler);</script>
 </body>
 
 </html>

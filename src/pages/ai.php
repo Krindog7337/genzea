@@ -100,7 +100,7 @@
         <div class="w-3 h-3 bg-primary rounded-full animate-bounce-delay-200"></div>
         <div class="w-3 h-3 bg-primary rounded-full animate-bounce-delay-400"></div>
       </div>
-      <div id="delayed-text" class="hidden text-xl font-bold text-primary -translate-x-64">
+      <div id="delayed-text" class="hidden text-lg font-bold text-primary -translate-x-64">
         Jika AI belum muncul, tekan tombol chat di kanan bawah
       </div>
     </div>

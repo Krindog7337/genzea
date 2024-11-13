@@ -247,12 +247,11 @@ Baca Artikel
     <!-- Grid -->
     <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
       <!-- Card -->
-      <div class="flex h-auto">
+      <div class="flex h-auto fly-up">
         <div class="flex flex-col rounded-xl bg-background">
           <div class="flex-auto p-4 md:p-6">
             <p class="text-base italic text-text/80 md:text-lg">
-              "Super easy to use! The AI chatbot answered my questions about
-              anemia quickly. Love the clean design and helpful info!"
+              "9/10. Belum nemu aplikasi anemia yang ada AI nya. Gaperlu lama-lama langsung dapet info tentang anemia"
             </p>
           </div>
 
@@ -261,16 +260,16 @@ Baca Artikel
               <div class="shrink-0">
                 <img
                   class="size-8 rounded-full sm:h-[2.875rem] sm:w-[2.875rem]"
-                  src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80"
+                  src="/assets/palen.webp"
                   alt="Avatar"
                 />
               </div>
 
               <div class="grow">
                 <p class="text-sm font-semibold text-text/80 sm:text-base">
-                  Josh Tyson
+                  Valentina Kusuma
                 </p>
-                <p class="text-xs text-text/60">Product Manager | Capsule</p>
+                <p class="text-xs text-text/60">Anggota Genre Badung</p>
               </div>
             </div>
           </div>
@@ -279,12 +278,11 @@ Baca Artikel
       <!-- End Card -->
 
       <!-- Card -->
-      <div class="flex h-auto">
+      <div class="flex h-auto fly-up">
         <div class="flex flex-col rounded-xl bg-background">
           <div class="flex-auto p-4 md:p-6">
             <p class="text-base italic text-text/80 md:text-lg">
-              "Amazing website! The chatbot is super intuitive and gave me great
-              tips on managing anemia. The design is clean and inviting!"
+              "Genzea bagus banget! Webnya gampang dipakai, dan chatbot Zena langsung jawab pertanyaan soal anemia dengan cepat. Desainnya simpel dan info yang diberikan juga bermanfaat banget!"
             </p>
           </div>
 
@@ -293,17 +291,17 @@ Baca Artikel
               <div class="shrink-0">
                 <img
                   class="size-8 rounded-full sm:h-[2.875rem] sm:w-[2.875rem]"
-                  src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80"
+                  src="/assets/widia.webp"
                   alt="Avatar"
                 />
               </div>
 
               <div class="grow">
                 <p class="text-sm font-semibold text-text/80 sm:text-base">
-                  Luisa
+                  Widia
                 </p>
                 <p class="text-xs text-gray-500">
-                  Senior Director of Operations | Fitbit
+                  Anggota OSIS SMAN 1 Kuta Utara  
                 </p>
               </div>
             </div>
@@ -313,12 +311,11 @@ Baca Artikel
       <!-- End Card -->
 
       <!-- Card -->
-      <div class="flex h-auto">
+      <div class="flex h-auto fly-up">
         <div class="flex flex-col rounded-xl bg-background">
           <div class="flex-auto p-4 md:p-6">
             <p class="text-base italic text-text/80 md:text-lg">
-              "Fantastic resource for anemia info! The AI chatbot is quick and
-              knowledgeable, and there's much other feature that very useful."
+              "Ini top banget. Kemarin aku sakit terus tanya si Zena. Ternyata aku beneran anemia wkwkwk. Lumayan akurat juga ya"
             </p>
           </div>
 
@@ -327,17 +324,17 @@ Baca Artikel
               <div class="shrink-0">
                 <img
                   class="size-8 rounded-full sm:h-[2.875rem] sm:w-[2.875rem]"
-                  src="https://images.unsplash.com/photo-1579017331263-ef82f0bbc748?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=900&h=900&q=80"
+                  src="/assets/cina.webp"
                   alt="Avatar"
                 />
               </div>
 
               <div class="grow">
                 <p class="text-sm font-semibold text-text/80 sm:text-base">
-                  Alisa Williams
+                  Dharma Adi
                 </p>
                 <p class="text-xs text-gray-500">
-                  Entrepreneur | Happy customer
+                  Winner LPB Bali Bidang Komputer
                 </p>
               </div>
             </div>
@@ -350,14 +347,14 @@ Baca Artikel
 
     <!-- Grid -->
     <div
-      class="mt-20 grid grid-cols-2 gap-6 text-center sm:gap-12 lg:grid-cols-3 lg:gap-8"
+      class="mt-20 grid md:grid-cols-2 gap-6 text-center sm:gap-12 lg:grid-cols-3 lg:gap-8"
     >
       <!-- Stats -->
       <div>
         <h4 class="text-lg font-semibold text-background/90 sm:text-xl">
           Tingkat Keakuratan
         </h4>
-        <p class="mt-2 text-4xl font-bold bg-gradient-to-l from-red-300 to-blue-400 bg-clip-text text-transparent sm:mt-3 sm:text-6xl">
+        <p class="mt-2 text-4xl font-bold bg-gradient-to-l from-red-300 to-blue-400 bg-clip-text text-transparent sm:mt-3 sm:text-6xl fly-up">
           99.95%
         </p>
         <p class="mt-1 text-background/70">Jawaban AI</p>
@@ -369,7 +366,7 @@ Baca Artikel
         <h4 class="text-lg font-semibold text-background/90 sm:text-xl">
           Orang Dibantu
         </h4>
-        <p class="mt-2 text-4xl font-bold bg-gradient-to-l from-red-300 to-blue-400 bg-clip-text text-transparent sm:mt-3 sm:text-6xl">
+        <p class="mt-2 text-4xl font-bold bg-gradient-to-l from-red-300 to-blue-400 bg-clip-text text-transparent sm:mt-3 sm:text-6xl fly-up">
           100+
         </p>
         <p class="mt-1 text-background/70">dengan AI</p>
@@ -381,7 +378,7 @@ Baca Artikel
         <h4 class="text-lg font-semibold text-background/90 sm:text-xl">
           Orang Puas
         </h4>
-        <p class="mt-2 text-4xl font-bold bg-gradient-to-l from-red-300 to-blue-400 bg-clip-text text-transparent sm:mt-3 sm:text-6xl">
+        <p class="mt-2 text-4xl font-bold bg-gradient-to-l from-red-300 to-blue-400 bg-clip-text text-transparent sm:mt-3 sm:text-6xl fly-up">
           89%
         </p>
         <p class="mt-1 text-background/70">Bulan ini</p>
