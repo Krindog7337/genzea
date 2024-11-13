@@ -191,7 +191,7 @@ Baca Artikel
             </span>
             <div class="grow">
               <span class="text-sm text-text/70 dark:text-text/90 sm:text-base">
-                Powerful <span class="font-bold">features</span>
+              Diagnosis mandiri lebih <span class="font-bold text-text">akurat</span>
               </span>
             </div>
           </li>
@@ -217,7 +217,7 @@ Baca Artikel
             </span>
             <div class="grow">
               <span class="text-sm text-text/70 dark:text-text/90 sm:text-base">
-                User Experience Design
+              Kuis untuk mengasah pengetahuan mengenai anemia
               </span>
             </div>
           </li>
@@ -357,7 +357,7 @@ Baca Artikel
         <h4 class="text-lg font-semibold text-background/90 sm:text-xl">
           Tingkat Keakuratan
         </h4>
-        <p class="mt-2 text-4xl font-bold text-accent sm:mt-3 sm:text-6xl">
+        <p class="mt-2 text-4xl font-bold bg-gradient-to-l from-red-300 to-blue-400 bg-clip-text text-transparent sm:mt-3 sm:text-6xl">
           99.95%
         </p>
         <p class="mt-1 text-background/70">Jawaban AI</p>
@@ -369,7 +369,7 @@ Baca Artikel
         <h4 class="text-lg font-semibold text-background/90 sm:text-xl">
           Orang Dibantu
         </h4>
-        <p class="mt-2 text-4xl font-bold text-accent sm:mt-3 sm:text-6xl">
+        <p class="mt-2 text-4xl font-bold bg-gradient-to-l from-red-300 to-blue-400 bg-clip-text text-transparent sm:mt-3 sm:text-6xl">
           100+
         </p>
         <p class="mt-1 text-background/70">dengan AI</p>
@@ -381,7 +381,7 @@ Baca Artikel
         <h4 class="text-lg font-semibold text-background/90 sm:text-xl">
           Orang Puas
         </h4>
-        <p class="mt-2 text-4xl font-bold text-accent sm:mt-3 sm:text-6xl">
+        <p class="mt-2 text-4xl font-bold bg-gradient-to-l from-red-300 to-blue-400 bg-clip-text text-transparent sm:mt-3 sm:text-6xl">
           89%
         </p>
         <p class="mt-1 text-background/70">Bulan ini</p>
@@ -445,8 +445,7 @@ Baca Artikel
                   >Terintegrasi dengan AI</span
                 >
                 <span class="mt-1 block text-text/70"
-                  >Use Preline thoroughly thought and automated libraries to
-                  manage your businesses.</span
+                  >Fitur AI yang memberikan pengalaman baru dalam pencarian informasi.</span
                 >
               </span>
             </span>
@@ -480,8 +479,7 @@ Baca Artikel
                   >Berbagai Kumpulan Materi</span
                 >
                 <span class="mt-1 block text-text/70"
-                  >Quickly Preline sample components, copy-paste codes, and
-                  start right off.</span
+                  >Temukan berbagai materi menarik yang disusun khusus untuk memperkaya pengetahuan Anda.</span
                 >
               </span>
             </span>
@@ -523,8 +521,7 @@ Baca Artikel
                   >Mudah Diakses</span
                 >
                 <span class="mt-1 block text-text/70"
-                  >Reduce time and effort on building modern look design with
-                  Preline only.</span
+                  >Dirancang agar dapat diakses di mana saja dan kapan saja.</span
                 >
               </span>
             </span>

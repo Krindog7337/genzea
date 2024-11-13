@@ -33,14 +33,14 @@
           <li>
             <a class="flex items-center gap-x-3 rounded-lg px-3 py-2 text-sm text-gray-700 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none dark:text-neutral-400 dark:hover:bg-neutral-900 dark:hover:text-neutral-300 dark:focus:bg-neutral-900 dark:focus:text-neutral-300"
               href="index.php?p=">
-              <box-icon class="size-4  block  fill-text/90" name='home-alt' size="sm" ></box-icon>
+              <box-icon class="size-4  block  fill-text/90" name='home-alt' size="sm"></box-icon>
               Beranda
             </a>
           </li>
           <li>
             <a class="flex items-center gap-x-3 rounded-lg px-3 py-2 text-sm text-gray-700 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none dark:text-neutral-400 dark:hover:bg-neutral-900 dark:hover:text-neutral-300 dark:focus:bg-neutral-900 dark:focus:text-neutral-300"
               href="index.php?p=article">
-              <box-icon name='news' class="size-4  block fill-text/90" ></box-icon>
+              <box-icon name='news' class="size-4  block fill-text/90"></box-icon>
               Artikel
             </a>
           </li>
@@ -77,7 +77,7 @@
   <!-- End Sidebar -->
 
   <!-- Content -->
-  <div class="absolute lg:hidden z-10 right-4 bottom-48">
+  <div class="absolute lg:hidden z-10 left-4 top-16">
 
     <button type="button"
       class="p-2 inline-flex items-center gap-x-2 text-xs font-medium rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none"
@@ -92,10 +92,44 @@
       <span>Sidebar</span>
     </button>
   </div>
-  <div class="px-2">
+  <div>
+    <div class="absolute top-1/2 left-1/2 lg:translate-x-32">
+      <div class="flex gap-4">
 
-    <iframe class="relative h-[calc(100vh-50px)] lg:h-screen w-full lg:ps-64"
-      src="https://app.fastbots.ai/embed/cm25uqgbk6g5vsvbkz473j9g1"></iframe>
+        <div class="w-3 h-3 bg-primary rounded-full animate-bounce-delay-0"></div>
+        <div class="w-3 h-3 bg-primary rounded-full animate-bounce-delay-200"></div>
+        <div class="w-3 h-3 bg-primary rounded-full animate-bounce-delay-400"></div>
+      </div>
+      <div id="delayed-text" class="hidden text-xl font-bold text-primary -translate-x-64">
+        Jika AI belum muncul, tekan tombol chat di kanan bawah
+      </div>
+    </div>
   </div>
+
+  <!-- <iframe class="relative h-[calc(100vh-50px)] lg:h-screen w-full lg:ps-64"
+      src="https://app.fastbots.ai/embed/cm25uqgbk6g5vsvbkz473j9g1"></iframe> -->
+
+  <iframe class="relative h-[calc(100vh-50px)] lg:h-screen w-full lg:ps-64" id="bpFull" srcdoc="<!DOCTYPE html><html><body>
+        <script src='https://cdn.botpress.cloud/webchat/v2.2/inject.js'></script>
+        <script src='https://files.bpcontent.cloud/2024/11/13/11/20241113111445-UURRS4PV.js'></script>
+        <script>
+          // Open webchat
+         window.botpress.on('webchat:ready', (conversationId) => { botpress.open(); });
+          window.botpress.on('conversation', (conversationId) => { botpress.open(); });
+          </script>
+        <style>
+          @media (min-width:768px) {
+            .bpWebchat { width: 100%; height: 100%; right: 0; bottom: 0; max-height: 100%; overflow: auto; -webkit-overflow-scrolling: touch;}
+          }
+        </style></body></html>"></iframe>
 </div>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    setTimeout(function () {
+      document.getElementById("delayed-text").classList.remove("hidden");
+    }, 5000); // 5000 milliseconds = 5 seconds
+  });
+</script>
 <!-- End Content -->

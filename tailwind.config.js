@@ -33,6 +33,11 @@ module.exports = {
         normal: '400',
         bold: '700',
       },
+      animation: {
+        'bounce-delay-0': 'bounce 0.6s infinite 0s',
+        'bounce-delay-200': 'bounce 0.6s infinite 0.2s',
+        'bounce-delay-400': 'bounce 0.6s infinite 0.4s',
+      },
     },
   },
   plugins: [

@@ -3,6 +3,7 @@ error_reporting(E_ALL);
 ini_set('display_errors', 1);
 include "../src/content.php";
 $page = isset($_GET['p']) ? $_GET['p'] : ''; 
+
 ?>
 
 
@@ -19,7 +20,7 @@ $page = isset($_GET['p']) ? $_GET['p'] : '';
 
 <body class="bg-background font-body box-border">
   <!-- ========== HEADER ========== -->
-<?php
+  <?php
 $current_page = isset($_GET['p']) ? $_GET['p'] : '';
 if ($current_page != 'ai')
 include $navbar ?>
@@ -36,17 +37,23 @@ include $navbar ?>
   <?php
 if ($current_page != 'ai')
 include $footer ?>
- 
+
   <!-- ========== END FOOTER ========== -->
 
   <!-- preline script -->
   <script src="/node_modules/preline/dist/preline.js"></script>
   <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 
-  <!-- Chatbot --><?php
+  <!-- Chatbot -->
+  <?php
    if ($current_page != 'ai')
    echo 
-   '<script defer src="https://app.fastbots.ai/embed.js" data-bot-id="cm25uqgbk6g5vsvbkz473j9g1"></script>';
+  '
+
+  <script src="https://cdn.botpress.cloud/webchat/v2.2/inject.js"></script>
+  <script src="https://files.bpcontent.cloud/2024/11/13/11/20241113111445-UURRS4PV.js"></script>
+      
+    ';
    ?>
 </body>
 
